@@ -1,0 +1,89 @@
+ul#vertical-multilevel-menu1, #vertical-multilevel-menu1 ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	font-size:12px;
+}
+
+#vertical-multilevel-menu1 li.container{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#vertical-multilevel-menu1 li a
+{
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding: 5px;
+	background:;
+	font-size: 15px;
+    line-height: 21px;
+
+}
+
+#vertical-multilevel-menu1 li a span
+{
+	border-bottom: 1px solid #ccc;
+}
+
+#vertical-multilevel-menu1 li a:hover,#vertical-multilevel-menu1 li a:hover span {
+    color: #b41e87;
+    border-bottom-color: #b41e87;
+    
+}
+
+#vertical-multilevel-menu1  span.plus,#vertical-multilevel-menu1  span.minus
+{
+	cursor: pointer;
+	padding:0 10px;
+    width: 30%;
+    height: 25px;
+    text-align: center;
+    /* border: 2px solid #ccc; */
+    z-index: 200;
+	color: #ccc;
+	font-size: 20px;
+	padding-right:10px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	line-height: 25px;
+	font-weight: bold;
+
+
+}
+
+
+#vertical-multilevel-menu1  span.plus{
+	line-height: 20px;
+}
+
+#vertical-multilevel-menu1  span.minus{
+	line-height: 15px;
+	/* color: #b41e87; */
+}
+
+#vertical-multilevel-menu1  span.plus:hover,#vertical-multilevel-menu1  span.minus:hover
+{
+	border-color: #b41e87;
+	color: #b41e87; 
+}
+
+/*Submenu box*/
+#vertical-multilevel-menu1 li ul
+{
+	display:none;
+	z-index:500;
+	height:auto;
+
+	}
+#vertical-multilevel-menu1 li.dl1 ul a
+{
+	margin-left: 10px;
+}
+#vertical-multilevel-menu1 li.dl2 ul a{
+	margin-left: 20px;
+}

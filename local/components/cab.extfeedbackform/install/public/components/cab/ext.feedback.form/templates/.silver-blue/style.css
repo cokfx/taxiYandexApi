@@ -1,0 +1,250 @@
+.feedback{
+	background: #F9F9F9;
+	padding: 10px;
+	border: 1px solid #aaa;
+}
+.feedback.corners{
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;	
+	behavior: url(/bitrix/js/cab.misc/ie/PIE.htc);
+}
+.feedback.shadow{
+	box-shadow: 0 0 20px #ccc;	
+	-moz-box-shadow: 0 0 20px #ccc;	
+	-webkit-box-shadow: 0 0 20px #ccc;	
+	behavior: url(/bitrix/js/cab.misc/ie/PIE.htc);
+}
+.feedback.grad{
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#FEFEFE),to(#ddd));
+	background-image: -webkit-linear-gradient(top,#FEFEFE,#ddd);
+	background-image: -moz-linear-gradient(top,#FEFEFE,#ddd);
+	background-image: -ms-linear-gradient(top,#FEFEFE,#ddd);
+	background-image: -o-linear-gradient(top,#FEFEFE,#ddd);
+	background-image: linear-gradient(top,#FEFEFE,#ddd);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FEFEFE',EndColorStr='#dddddd');	
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FEFEFE',EndColorStr='#dddddd')";
+}
+/*-----------------------------------------------------------------------------------------------*/
+.feedback .caption{
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+	margin: 0;
+	padding: 0;
+	font-size: 120%;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	padding-top: 14px;	
+}
+.feedback form{
+	margin:0;
+	padding:0;
+}
+.feedback .hide{
+	display: none;
+}
+.feedback .starrequired{
+	color: red;
+}
+/*-----------------------------------------------------------------------------------------------*/
+.feedback .error-text{
+	border: 2px solid #d65957;
+	font-size: 12px;
+	background: #d01816;
+	padding: 5px;
+	margin-top: 3px;
+	
+	background: url(images/error-bg.png) repeat-x;
+}
+.feedback .error-text.float{
+	position: absolute;
+	width: 300px;
+	right:-380px;
+	top: 0;
+	margin-top: 0px;
+}
+.feedback .error-text .message{
+	color: white;
+}
+.feedback .error-text.corners{
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;	
+	behavior: url(/bitrix/js/cab.misc/ie/PIE.htc);
+}
+.feedback .error-text.grad, 
+.feedback .error-text.grad:hover{
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#d21c19),to(#a20b10));
+	background-image: -webkit-linear-gradient(top,#d21c19,#a20b10);
+	background-image: -moz-linear-gradient(top,#d21c19,#a20b10);
+	background-image: -ms-linear-gradient(top,#d21c19,#a20b10);
+	background-image: -o-linear-gradient(top,#d21c19,#a20b10);
+	background-image: linear-gradient(top,#d21c19,#a20b10);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#d21c19',EndColorStr='#a20b10');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#d21c19',EndColorStr='#a20b10')";
+}
+/*-----------------------------------------------------------------------------------------------*/
+.feedback .inputtext, .feedback .tags input, .feedback .UTDateTime input{
+	border: 1px solid #ccc;	
+	padding: 3px 5px;
+	/*margin: 5px 0 0 0;*/
+	width: 100%;
+	height:20px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+.feedback .corner{
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;	
+}
+.feedback .shadow1{/* was .shadow but has bug in ie*/
+	box-shadow: 0 0 5px #D2D2D2;
+	-moz-box-shadow: 0 0 5px #D2D2D2;
+	-webkit-box-shadow: 0 0 5px #D2D2D2;
+	behavior: url(/bitrix/js/cab.misc/ie/PIE.htc);
+}
+.feedback .grad{
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#eee),to(#fefefe));
+	background-image: -webkit-linear-gradient(top,#eee,#fefefe);
+	background-image: -moz-linear-gradient(top,#eee,#fefefe);
+	background-image: -ms-linear-gradient(top,#eee,#fefefe);
+	background-image: -o-linear-gradient(top,#eee,#fefefe);
+	background-image: linear-gradient(top,#eee,#fefefe);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee',EndColorStr='#fefefe');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee',EndColorStr='#fefefe')";	
+}
+.feedback .grad:hover, .feedback .grad:focus {
+	background: white;
+}
+/*-----------------------------------------------------------------------------------------------*/
+.feedback .inputtext:focus{
+	color: black;/*#0459b7;*/
+}
+.feedback .datetime, .feedback .UTDateTime input{
+	width: 86%;
+}
+.feedback .textarea{
+	border: 1px solid #ccc;
+	padding: 3px 5px;
+	width: 100%;
+}
+
+.feedback .bxlhe-frame{
+	border: 1px solid #ccc;
+	padding: 2px;
+	width: 100%;
+}
+/*--select---------------------------------------------------------------------------------------------*/
+.feedback .select, .feedback .user-type select{
+	background: white;
+	/*margin: 5px 0 0 0;*/
+	width: 100%;
+}
+/*--button---------------------------------------------------------------------------------------------*/
+.feedback .button{
+	height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: #ffffea;
+	
+	font-weight: bold;
+
+	border: 0;/*1px solid #093c75;*/
+	padding: 7px 13px;
+	margin: 10px 0;
+	cursor: pointer;
+	
+	background-color: #057dd6;
+	background: url(images/button-bg.png) 0 -10px repeat-x;
+}
+
+.feedback .button:hover{
+		background: url(images/button-bg.png) repeat-x;
+}
+
+.feedback .button.corners{
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;	
+	behavior: url(/bitrix/js/cab.misc/ie/PIE.htc);
+}
+.feedback .button-shadow{}
+.feedback .button.grad{
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#07a6f9),to(#0459b7));
+	background-image: -webkit-linear-gradient(top,#07a6f9,#0459b7);
+	background-image: -moz-linear-gradient(top,#07a6f9,#0459b7);
+	background-image: -ms-linear-gradient(top,#07a6f9,#0459b7);
+	background-image: -o-linear-gradient(top,#07a6f9,#0459b7);
+	background-image: linear-gradient(top,#07a6f9,#0459b7);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#07a6f9',EndColorStr='#0459b7');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#07a6f9',EndColorStr='#0459b7')";
+}
+.feedback .button.grad:hover{
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#07a6f9),to(#0459b7));
+	background-image: -webkit-linear-gradient(top,#07a6f9, #0459b7);
+	background-image: -moz-linear-gradient(top,#07a6f9,#0459b7);
+	background-image: -ms-linear-gradient(top,#07a6f9,#0459b7);
+	background-image: -o-linear-gradient(top,#07a6f9,#0459b7);
+	background-image: linear-gradient(top,#07a6f9,#0459b7);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#07a6f9',EndColorStr='#0459b7');
+}
+/*---------------------------------------------------------------------------------------------------*/
+.feedback .submit-td{
+	text-align: center;
+}
+.feedback .note{
+	color: #aaa;
+}
+/*--data-table----------------------------------------------------------------------------------------*/
+.feedback .data-table{
+	border: 0;
+}
+.feedback .data-table td.data .wrapper{
+	position: relative;
+}
+.feedback .data-table td.label{
+	text-shadow: 1px 1px 1px white;
+	font-weight: normal;
+}
+.feedback .data-table td.label, .feedback .data-table td.data{
+	padding: 5px;
+}
+.feedback .data-table td.data label{
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 5px;
+	cursor: pointer;
+	float: none;
+}
+/*--data-table row cell---------------------------------------------------------------------------------------------*/
+.feedback tr:hover .label{
+	color: #0459b7;
+}
+.feedback td{
+	border: 0 !important;
+	background: transparent!important;
+}
+/*---data table label align--------------------------------------------------------------------------------*/
+.feedback .l-align{text-align: left;}
+.feedback .c-align{text-align: center;}
+.feedback .r-align{text-align: right;}
+.feedback .t-valign{vertical-align: top;}
+.feedback .c-valign{vertical-align: middle;}
+.feedback .b-valign{vertical-align: bottom;}
+/*--------------------------------------------------------------------------------------------------------*/
+.feedback .notetext{
+	color: green;
+}
+/*--CAPTCHA--*/
+#captcha_block{position:relative;}
+#captcha_block .ajax_loader{
+	display:none; 
+	position:absolute; 
+	width:180px; height:40px;
+	background: #FFF url(images/ajax-loader.gif) center no-repeat;
+}

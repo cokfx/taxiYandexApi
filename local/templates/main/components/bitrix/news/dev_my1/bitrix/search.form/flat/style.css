@@ -1,0 +1,30 @@
+.search-form_inputgroup {
+    height: 60px;
+}
+
+
+.search-form_inputgroup-searchtext {
+    padding-right: 0px;
+
+}
+
+.search-form_inputgroup-searchtext input.form-control {
+    border-radius: 4px 0px 0px 4px!important;
+    -moz-border-radius: 4px 0px 0px 4px!important;
+    -webkit-border-radius: 4px 0px 0px 4px!important;
+}
+
+.search-form_inputgroup-submit {
+    padding-left: 0px;
+    height: inherit;
+}
+
+.search-form_inputgroup-submit input {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 100%;
+
+}
+
+
+

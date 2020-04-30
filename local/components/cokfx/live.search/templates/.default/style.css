@@ -1,0 +1,10 @@
+.mt-15{
+    margin-top: 15px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+#search_result{
+    padding: 30px 0px 5px 20px;
+    color: #cccccc;
+}

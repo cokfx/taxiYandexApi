@@ -1,0 +1,18 @@
+.niceRadio {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(images/radio.png);
+	overflow:hidden;
+	
+	vertical-align: middle;
+}
+
+.radioChecked {
+	background-position: 0 -16px;
+}
+
+.niceRadio input {
+	margin-left: -17px;
+}

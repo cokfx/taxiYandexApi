@@ -1,0 +1,13 @@
+{
+  "name": "mikhail/my-super-project",
+  "description": "",
+  "keywords": ["", ""],
+  "type": "project",
+  "require": {
+    "php": ">=5.4.0",
+    "mmjurov/yandex-inflector": "dev-master",
+    "dts/ebay-sdk-trading": "0.14.0",
+    "mpdf/mpdf": "^8.0",
+    "dompdf/dompdf": "^0.8.3"
+  }
+}

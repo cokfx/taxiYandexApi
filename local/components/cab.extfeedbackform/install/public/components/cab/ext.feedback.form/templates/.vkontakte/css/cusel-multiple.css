@@ -1,0 +1,249 @@
+/*
+	styles for select
+*/
+.cuselMultipleContent,
+.cuselMultipleContentInner,
+.cuselMultipleTopInnerLeft,
+.cuselMultipleTopInnerRight,
+.cuselMultipleBottomInnerLeft,
+.cuselMultipleBottomInnerRight,
+.cuselMultiple .jScrollPaneDrag,
+.cuselMultiple .jScrollArrowUp,
+.cuselMultiple .jScrollArrowDown {
+	background-image: url(images/selects-multiple.png); /* специальная картинка отрисованная по нужным разерам для multiple */
+	background-repeat: no-repeat;
+}
+.cuselMultiple { /* общий вид селекта */
+	width: 400px; /* ширина по дизайну */
+	display: inline-block;
+	font-size: 11px;
+	position: relative;	
+}
+.cuselMultipleContent{
+	background-position: right 0;
+	/*overflow: hidden;*/
+	/*margin: 4px 0;*/
+	padding: 0 1px 0 0;
+}
+.cuselMultipleContentInner{
+	background-position: -400px 0;
+}
+.cuselMultipleTop {
+	height: 4px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	overflow: hidden;
+}
+.cuselMultipleTopInnerLeft{
+	position: relative;
+	margin-right: 15px;
+	height: 4px;
+	left:0;
+	right: 15px;	
+	background-position: 0 0;		
+}
+.cuselMultipleTopInnerRight{
+	position: absolute;
+	height: 4px;
+	top:0;
+	right: 0;	
+	width: 15px;
+	background-position: -384px 0;		
+}
+.cuselMultipleBottom {
+	height: 4px;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	overflow: hidden;
+}
+.cuselMultipleBottomInnerLeft {
+	height: 4px;
+	position: relative;
+	margin-right:15px;	
+	left: 0;
+	right: 15px;
+	background-position: 0 -5px;
+}
+.cuselMultipleBottomInnerRight{
+	position: absolute;
+	height: 4px;
+	width: 15px;
+	top:0;
+	right: 0;
+	background-position: -384px -5px;
+}
+.cuselMultiple span { /* оформление оптиона */
+	display: block;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 2px 15px 2px 5px; /* паддинг справа - это отступ текста от ползунка */
+	margin: 0 3px 0 4px;
+	zoom: 1;
+	overflow: hidden;
+	border: 1px solid white;	
+}
+.cuselMultiple span:hover,
+.cuselMultiple .cuselMultipleOptHover { /* реакция оптиона на наведение */
+	color: white;
+	background: #587da1;
+	border: 1px solid #2a5883;
+}
+.cuselMultiple .cuselMultipleActive { /* оформление активного оптиона в списке */
+	color: white;
+	background: #587da1;
+	border: 1px solid #2a5883;
+}
+.cuselMultiple .cuselMultipleCur { /* оформление текущей позиции в спиcке */
+	border: 1px dotted #000;
+	/*padding: 1px 14px 1px 4px;*/
+}
+
+/*
+	styles for focus and hover
+*/
+.cuselMultiple:hover .cuselMultipleContent,
+.cuselMultiple:focus .cuselMultipleContent,
+.cuselMultiple:hover .cuselMultipleContentInner,
+.cuselMultiple:focus .cuselMultipleContentInner,
+
+.cuselMultiple:hover .cuselMultipleTopInnerLeft,
+.cuselMultiple:focus .cuselMultipleTopInnerLeft,
+
+.cuselMultiple:hover .cuselMultipleTopInnerRight,
+.cuselMultiple:focus .cuselMultipleTopInnerRight,
+
+.cuselMultiple:hover .cuselMultipleBottomInnerLeft,
+.cuselMultiple:focus .cuselMultipleBottomInnerLeft
+
+.cuselMultiple:hover .cuselMultipleBottomInnerRight,
+.cuselMultiple:focus .cuselMultipleBottomInnerRight
+{
+	background-image: url(images/selects-multiple-focus.png);
+}
+
+/*
+	styles for scrollbar
+*/
+.cuselMultiple-scroll-wrap { /* контейнер для блока с прокруткой */
+	display: block;
+	overflow: hidden;
+}
+.cuselMultiple .jScrollPaneContainer {
+	border: 0; /*! важно - без этого параметра ie выведет список не отформатированный по ширине*/
+	position: relative;
+	overflow: hidden;
+	z-index: 5;
+	/*min-height: 100px;*/
+}
+
+.cuselMultiple .jScrollPaneTrack { /* трек для ползунка прокрутки */
+	height: 100%;
+	width: 7px !important;
+	background: #ccc;
+	position: absolute;
+	top: 0;
+	right: 5px;
+}
+.cuselMultiple .jScrollPaneDrag { /* ползунок */
+	position: absolute;
+	background-position: -40px -9px;
+	cursor: pointer;
+	width: 15px !important;
+	height: 27px !important;
+	right: -4px;
+
+}
+
+.cuselMultiple .jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.cuselMultiple .jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+.cuselMultiple .jScrollArrowUp { /* стрелка вверх */
+	position: absolute;
+	top: 0;
+	right: 3px;
+	width: 26px;
+	height: 12px;
+	cursor: pointer;
+	background-position: -2px -9px;
+	overflow: hidden;
+}
+.cuselMultiple .jScrollArrowDown { /* стрелка вниз */
+	width: 25px;
+	height: 12px;
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	right: 3px;
+	cursor: pointer;
+	background-position: -21px -10px;
+	overflow: hidden;
+}
+
+/*
+	styles for disabled select
+*/
+.cuselMultiple.classDisCusel,
+.cuselMultiple.classDisCusel span {
+	cursor: default;
+	color: #ccc !important;
+}
+.cuselMultiple.classDisCusel .cuselMultipleContent,
+.cuselMultiple.classDisCusel .cuselMultipleContentInner,
+.cuselMultiple.classDisCusel .cuselMultipleTopInnerLeft,
+.cuselMultiple.classDisCusel .cuselMultipleTopInnerRight,
+.cuselMultiple.classDisCusel .cuselMultipleBottomInnerLeft,
+.cuselMultiple.classDisCusel .cuselMultipleBottomInnerRight,
+.cuselMultiple.classDisCusel .jScrollArrowUp,
+.cuselMultiple.classDisCusel .jScrollArrowDown,
+.cuselMultiple.classDisCusel .jScrollPaneDrag 
+{
+	background-image: url(images/selects-multiple-dis.png) !important;
+	cursor: default;
+}
+.cuselMultiple.classDisCusel span:hover {
+	background: #fff;
+}
+.cuselMultiple.classDisCusel .cuselMultipleActive {
+	background: #666 !important;
+}
+
+/*
+	styles for ie7
+*/
+*:first-child+html .cuselMultiple,
+*:first-child+html label {
+	float: left;
+	zoom: 1;
+	height: auto;
+}
+*:first-child+html .lineForm {
+	clear: both;
+}
+*:first-child+html .cuselMultipleContent {
+	float: left;
+	width: 100%;
+}
+
+.cuselMultipleContent,
+.cuselMultipleContentInner
+{
+	/*background-repeat: repeat-y;*/
+}
+.cuselMultipleInputsWrap{
+	display: none;
+}

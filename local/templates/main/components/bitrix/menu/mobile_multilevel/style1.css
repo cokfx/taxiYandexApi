@@ -1,0 +1,165 @@
+ul#vertical-multilevel-menu1, #vertical-multilevel-menu1 ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 50%;
+	font-size:12px;
+}
+
+/*Submenu box*/
+#vertical-multilevel-menu1 li ul
+{
+	/* position:absolute; */
+	/*top:-999em;*/
+	background: #ccc;
+	display:none;
+	z-index:500;
+	height:auto;
+	border: 1px solid #000;
+	
+	
+	
+}
+
+/* Submenu Items */
+#vertical-multilevel-menu1 li a
+{
+	display: block;
+	text-decoration: none;
+	
+	
+	padding: 5px;
+	background:;
+	border-bottom:1px solid #C1C1C1;
+	font-size: 15px;
+    line-height: 21px;
+}
+
+/*Items selected*/
+#vertical-multilevel-menu1 li a.item-selected
+{
+	background-color:;
+}
+
+/*Items Hover */
+#vertical-multilevel-menu1 li a:hover
+{
+	background-color: ;
+}
+
+/*Rootmenu Items*/
+#vertical-multilevel-menu1 a.root-item
+{
+	display: inline;
+	color: #000000;
+	
+	font-size:12px;
+	padding:15px 15px 4px 5px;
+	background: none;
+	border:none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	font-size: 15px;
+    line-height: 21px;
+    white-space: nowrap;
+	
+	/*height:26px;
+	overflow:hidden;*/
+}
+
+/*Rootmenu Items hover*/
+#vertical-multilevel-menu1 a.root-item:hover, #vertical-multilevel-menu1 a.root-item-selected:hover
+{
+	
+}
+
+/*Rootmenu Items Selected*/
+#vertical-multilevel-menu1 a.root-item-selected
+{
+	color:#fff;
+	font-weight:bold;
+	font-size:12px;
+	padding:5px 0 7px 35px;
+	
+	border:none;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	/*height:26px;
+	overflow:hidden;*/
+}
+
+/*Parent item*/
+/* #vertical-multilevel-menu1 a.parent,a.root-item
+{
+	background: #F5F5F5 url(images/arrow.gif) center right no-repeat;
+	padding-right:10px;
+} */
+
+#vertical-multilevel-menu1  span
+{
+	cursor: pointer;
+	padding:0 10px;
+    margin-top: 6px;
+    width: 46px;
+    height: 25px;
+    text-align: center;
+    border-left: 1px solid #ccc;
+    z-index: 200;
+	background:url(images/arrow.gif) center right no-repeat; 
+	padding-right:10px;
+}
+/*Denied items*/
+/* #vertical-multilevel-menu1 a.denied
+{
+	background: #F5F5F5 url(images/lock.gif) center right no-repeat;
+	color:#DDDDDD;
+	padding-right:10px;
+} */
+
+/* #vertical-multilevel-menu1 span
+{
+	background: #F5F5F5 url(images/lock.gif) center right no-repeat;
+	color:#DDDDDD;
+	padding-right:10px;
+} */
+
+/* Holly Hack. IE Requirement \*/
+* html ul#vertical-multilevel-menu1 li { float: left; height: 1%;margin-bottom: 14px; }
+* html ul#vertical-multilevel-menu1 li a { height: 1%; }
+/* End */
+
+
+/*Submenu margin*/
+#vertical-multilevel-menu1 li ul.root-item
+{
+	margin:-27px 0 0 210px;
+}
+
+#vertical-multilevel-menu1 li ul
+{
+	margin:-27px 0 0 133px;
+}
+
+/*Submenu hide*/
+#vertical-multilevel-menu1 li{margin-bottom: 14px;} 
+#vertical-multilevel-menu1 li:hover ul ul,
+#vertical-multilevel-menu1 li.jsvhover ul ul,
+#vertical-multilevel-menu1 li:hover ul ul ul,
+#vertical-multilevel-menu1 li.jsvhover ul ul ul
+{
+	/*top:-999em;*/
+	display:none;
+}
+
+/*Submenu show*/
+#vertical-multilevel-menu1 li:hover ul,
+#vertical-multilevel-menu1 li.jsvhover ul,
+#vertical-multilevel-menu1 li li:hover ul,
+#vertical-multilevel-menu1 li li.jsvhover ul,
+#vertical-multilevel-menu1 li li li:hover ul,
+#vertical-multilevel-menu1 li li li.jsvhover ul
+{
+	/*z-index:1000;
+	top:auto;*/
+	display:;
+}

@@ -1,0 +1,34 @@
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.review-doc {
+    margin: 20px 0 0;
+    padding-bottom: 60px;
+}
+
+.review-doc__name{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.review-doc__name span {
+    color: #7c7c7c;
+    font-size: 12px;
+    font-weight: 400;
+}
+.review-doc__item {
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.review-doc__title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
