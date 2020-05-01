@@ -25,11 +25,13 @@
 $this->setFrameMode(true);
 
 include_once __DIR__ . '/Driver.php';
-
+$driverId="71bb388cc57941dca0ad42e2b4029731";//Прохоренко Андрей
+//Driver::addTrasferById($driverId,992.25);
+//Driver::getArrayApiAllDrivers();
+//Driver::getArrayApiDriverById();
+//Driver::ammountPrepairById();
 
 Driver::addDrivers($arResult);
-Driver::getArrayApiAllDrivers();
-Driver::getArrayApiDriverById();
 
 
 $arrDriversIds = array(568, 476);
