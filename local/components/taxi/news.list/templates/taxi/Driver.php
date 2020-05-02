@@ -20,12 +20,96 @@ class Driver
 
     private static $CURLOPT_URL = 'https://fleet-api.taxi.yandex.net/v1/parks/driver-profiles/list';
 
-    public static function addTrasferById($driver_profile_id,$ostatok)
+    public static function addTrasferById($driver_profile_id, $ostatok)
     {
-        $ammount=self::ammountPrepairById($driver_profile_id,$ostatok);
+        $ammount = self::ammountPrepairById($driver_profile_id, $ostatok);
 
-        self::transferPrepair($driver_profile_id,$ammount);
+        self::transferPrepair($driver_profile_id, $ammount);
 
+    }
+
+    static function ammountPrepairById($driver_profile_id = "71bb388cc57941dca0ad42e2b4029731", $ostatok = 993.25)
+    {
+
+        $a = self::getApiDriverById();
+        $accounts = $a['driver_profiles'][0];
+
+        if (count($accounts) > 1) {
+            foreach ($accounts as $i => $account) {
+                if (floatval($account['balance']) > 100) {
+                    $ammount = floatval($account['balance']) - $ostatok;
+                    $ammounts[] = $ammount;
+                }
+
+            }
+
+        } else {
+            if (floatval($accounts[0]['balance']) > 100) {
+                $ammounts = floatval($accounts[0]['balance']);
+
+            }
+        }
+        $balance = floatval($a['driver_profiles'][0]['accounts'][0]['balance']) - $ostatok;
+
+        return $balance;
+    }
+
+    private static function transferPrepair($apiId, $ostatok)
+    {
+        //71bb388cc57941dca0ad42e2b4029731
+        self::getApiDriverById();
+
+        $queryTransByID = array(
+            "amount" => "-" . $ostatok . "",
+            "category_id" => "partner_service_manual",
+            "currency_code" => "RUB",
+            "description" => "Test",
+            "driver_profile_id" => "71bb388cc57941dca0ad42e2b4029731",
+            "park_id" => "e19d549e69f548c6b4aad5bae570b4ba"
+        );
+
+        $queryTransByID = json_encode($queryTransByID);
+        /* $queryTransByID = '{
+         "amount":"-1",
+             "category_id":"partner_service_manual",
+             "currency_code":"RUB",
+             "description": "Test",
+             "driver_profile_id": "71bb388cc57941dca0ad42e2b4029731",
+             "park_id": "e19d549e69f548c6b4aad5bae570b4ba"
+         }';*/
+        $idempotenceKey = uniqid('', true);
+        $httpHeader = array(
+            "Accept: application/json",
+            "Content-Type: application/json",
+            "X-Client-ID:taxi/park/e19d549e69f548c6b4aad5bae570b4ba",
+            "X-API-Key:WDk/JSTplDJldWoDRpkmBPYUflHoczTiT",
+            "X-Idempotency-Token: $idempotenceKey",
+            "X-Accept-Language:en"
+        );
+        $curl = curl_init();
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => "https://fleet-api.taxi.yandex.net/v2/parks/driver-profiles/transactions",
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "POST",
+            CURLOPT_POSTFIELDS => $queryTransByID,
+            //{"driver_profile":{"id": "a6c44b91c10d09ca36d490ea66dfaba7"}}
+            //},
+            CURLOPT_HTTPHEADER => $httpHeader,
+        ));
+
+        $output = curl_exec($curl);
+
+        curl_close($curl);
+
+        echo '<pre>';
+        print_r(json_decode($output, true));
+        echo '</pre>';
+        return $arrApiAll = json_decode($output, true);
     }
 
     static function getBaseDriverById($idElem)
@@ -180,89 +264,4 @@ class Driver
         return $arrApiAll = json_decode($output, true);
     }
 
-
-
-    static function ammountPrepairById($driver_profile_id = "71bb388cc57941dca0ad42e2b4029731",$ostatok=993.25)
-    {
-
-        $a = self::getApiDriverById();
-        $accounts=$a['driver_profiles'][0];
-
-        if(count($accounts)>1){
-            foreach ($accounts as $i=>$account){
-                if (floatval($account['balance'])>100){
-                    $ammount=floatval($account['balance'])-$ostatok;
-                    $ammounts[]=$ammount;
-                }
-
-            }
-
-        }else{
-            if (floatval($accounts[0]['balance'])>100){
-                $ammounts=floatval($accounts[0]['balance']);
-
-            }
-        }
-        $balance=floatval($a['driver_profiles'][0]['accounts'][0]['balance'])-$ostatok;
-
-        return $balance;
-    }
-
-    private static function transferPrepair($apiId,$ostatok)
-    {
-        //71bb388cc57941dca0ad42e2b4029731
-        self::getApiDriverById();
-
-        $queryTransByID = array(
-            "amount" => "-".$ostatok."",
-            "category_id" => "partner_service_manual",
-            "currency_code" => "RUB",
-            "description" => "Test",
-            "driver_profile_id" => "71bb388cc57941dca0ad42e2b4029731",
-            "park_id" => "e19d549e69f548c6b4aad5bae570b4ba"
-        );
-
-        $queryTransByID = json_encode($queryTransByID);
-        /* $queryTransByID = '{
-         "amount":"-1",
-             "category_id":"partner_service_manual",
-             "currency_code":"RUB",
-             "description": "Test",
-             "driver_profile_id": "71bb388cc57941dca0ad42e2b4029731",
-             "park_id": "e19d549e69f548c6b4aad5bae570b4ba"
-         }';*/
-        $idempotenceKey = uniqid('', true);
-        $httpHeader = array(
-            "Accept: application/json",
-            "Content-Type: application/json",
-            "X-Client-ID:taxi/park/e19d549e69f548c6b4aad5bae570b4ba",
-            "X-API-Key:WDk/JSTplDJldWoDRpkmBPYUflHoczTiT",
-            "X-Idempotency-Token: $idempotenceKey",
-            "X-Accept-Language:en"
-        );
-        $curl = curl_init();
-        curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://fleet-api.taxi.yandex.net/v2/parks/driver-profiles/transactions",
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_ENCODING => "",
-            CURLOPT_MAXREDIRS => 10,
-            CURLOPT_TIMEOUT => 0,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-            CURLOPT_CUSTOMREQUEST => "POST",
-            CURLOPT_POSTFIELDS => $queryTransByID,
-            //{"driver_profile":{"id": "a6c44b91c10d09ca36d490ea66dfaba7"}}
-            //},
-            CURLOPT_HTTPHEADER => $httpHeader,
-        ));
-
-        $output = curl_exec($curl);
-
-        curl_close($curl);
-
-        echo '<pre>';
-        print_r(json_decode($output, true));
-        echo '</pre>';
-        return $arrApiAll = json_decode($output, true);
-    }
 }

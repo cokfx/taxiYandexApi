@@ -23,8 +23,35 @@
 // TODO тестить на id=562
 
 $this->setFrameMode(true);
-
+include_once __DIR__ . '/init.php';
 include_once __DIR__ . '/Driver.php';
+use PHPMailer\PHPMailer\PHPMailer;
+
+use PHPMailer\PHPMailer\Exception;
+
+$mail=new PHPMailer(true);
+
+$mail->CharSet = 'utf-8';
+$body = "Мое первое письмо отправленно с помощью PHPMailer";
+$mail->SetFrom('name@yourdomain.com', 'First Last');
+$mail->AddAddress("230267@bk.ru", "John Doe");
+$mail->Subject = "PHPMailer Тестовое письмо используя mail()";
+$mail->addAttachment('file.txt','file.txt');        // Add attachments
+//$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+//$mail->isHTML(true);
+
+$mail->Body=$body;
+
+if(!$mail->Send()){
+    echo "Ошибка отправки письма: " . $mail->ErrorInfo;
+}else{
+    echo "Письмо отправленно!";
+}
+
+
+
+
+
 $driverId="71bb388cc57941dca0ad42e2b4029731";//Прохоренко Андрей
 //Driver::addTrasferById($driverId,992.25);
 //Driver::getArrayApiAllDrivers();
@@ -32,10 +59,6 @@ $driverId="71bb388cc57941dca0ad42e2b4029731";//Прохоренко Андрей
 //Driver::ammountPrepairById();
 
 Driver::addDrivers($arResult);
-
-
-$arrDriversIds = array(568, 476);
-
 
 ?>
 <style>

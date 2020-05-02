@@ -10,6 +10,7 @@ if ($_REQUEST['id'] != "") {
     }
 }
 use Dompdf\Dompdf;
+
 $title = $arRes['NAME'];
 $dateAgree=$arRes['PROPERTY_70'];
 $bankName=$arRes['PROPERTY_78'];
