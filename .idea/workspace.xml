@@ -5,82 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e07881f-67b1-41e0-862f-f162147c2404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/taxi/files/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/init.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/taxi/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/contracts/cronscript1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/debug/Debugger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/ApiData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/Db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/Driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/DriverData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/dbs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/result_modifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/src/DriverData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/src/Transactions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/cron.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/config/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/components/taxi/contracts/createContract.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/contracts/createContract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/images/bx-video.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/images/calendar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/images/comments.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/images/eye.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/images/tag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/images/user.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/lang/en/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/lang/ru/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/result_modifier.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/script.map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/script.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/bootstrap_v4/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/images/bx-video.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/lang/en/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/lang/ru/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/result_modifier.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/script.map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/script.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/themes/black/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/themes/black/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/themes/blue/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/themes/blue/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/themes/green/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/themes/green/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/themes/red/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/themes/red/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/themes/wood/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/themes/wood/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/themes/yellow/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/flat/themes/yellow/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/images/announcement.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/images/general.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/images/news.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/images/notice.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/images/order.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/images/portal.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/images/pr.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/lang/en/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/lang/ru/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/official/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/table/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/table/lang/en/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/table/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/table/lang/ru/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/table/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/table/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/table/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/Driver.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/Driver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/cronscript.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/ext.feedback.form/templates/taxi_new/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/ext.feedback.form/templates/taxi_new/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/news.list/.parameters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/.parameters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/Driver.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/src/Driver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/ajaxElemForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/ajaxElemForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/createContract.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/createContract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi1/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi1/Driver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi1/ajaxElemForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi1/includes/createContract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi1/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi1/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi1/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi1/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi1/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi1/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi1/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/modules/cab.tools/install/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/cab.tools/install/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/php_interface/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/php_interface/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stream/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/taxi/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stream/taxi/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stream/taxi/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/taчi/.section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/taчi/index.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,52 +91,71 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/template.php">
+        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="567">
+              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
-                <element signature="n#style#0;n#!!top" />
-                <element signature="n#div#0;n#!!top" />
-                <element signature="n#table#0;n#!!top" />
-                <element signature="n#script#1;n#!!top" />
+                <element signature="e#647#1121#0#PHP" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/init.php">
+        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/dbs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6222">
+              <caret line="1486" column="1" selection-start-line="1486" selection-start-column="1" selection-end-line="1486" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/ApiData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="71" />
+              <folding>
+                <element signature="e#46#1376#0#PHP" />
+                <element signature="e#1441#2415#0#PHP" />
+                <element signature="e#2461#4529#0#PHP" />
+                <element signature="e#2587#3167#0#PHP" />
+                <element signature="e#4550#4935#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local/components/taxi/src/DriverData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="180" column="5" lean-forward="true" selection-start-line="180" selection-start-column="5" selection-end-line="180" selection-end-column="5" />
+              <folding>
+                <element signature="n#getApiAllDrivers#0;n#DriverData#0;n#!!top" />
+                <element signature="e#1192#1645#0#PHP" />
+                <element signature="n#getArrayDiff#0;n#DriverData#0;n#!!top" />
+                <element signature="n#getArrayDiff1#0;n#DriverData#0;n#!!top" />
+                <element signature="n#addDrivers#0;n#DriverData#0;n#!!top" />
+                <element signature="n#deleteDrivers#0;n#DriverData#0;n#!!top" />
+                <element signature="n#getApiDriverBalance#0;n#DriverData#0;n#!!top" />
+                <element signature="n#transferPrepair#0;n#DriverData#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript1.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/Driver.php">
+        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="264" column="5" selection-start-line="264" selection-start-column="5" selection-end-line="264" selection-end-column="5" />
-              <folding>
-                <element signature="e#149#446#0#PHP" />
-                <element signature="n#addTrasferById#0;n#Driver#0;n#!!top" />
-                <element signature="n#ammountPrepairById#0;n#Driver#0;n#!!top" />
-                <element signature="n#transferPrepair#0;n#Driver#0;n#!!top" />
-                <element signature="n#getBaseDriverById#0;n#Driver#0;n#!!top" />
-                <element signature="n#getArrayDiff#0;n#Driver#0;n#!!top" />
-                <element signature="n#addDrivers#0;n#Driver#0;n#!!top" />
-                <element signature="n#getArrayApiAllDrivers#0;n#Driver#0;n#!!top" />
-                <element signature="n#getArrayApiDriverById#0;n#Driver#0;n#!!top" />
-                <element signature="n#getApiDriverById#0;n#Driver#0;n#!!top" />
-                <element signature="n#getApiAllDrivers#0;n#Driver#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream/taxi/file.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3591">
-              <caret line="133" selection-start-line="133" selection-end-line="133" />
+            <state relative-caret-position="270">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -199,6 +188,12 @@
       <find>phpmailer</find>
       <find>Body</find>
       <find>isPermittedPath</find>
+      <find>AddAddress</find>
+      <find>set</find>
+      <find>CRONTAB</find>
+      <find>site:</find>
+      <find>GetList</find>
+      <find>BX_CRONTAB</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi</dir>
@@ -212,32 +207,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/stream/taxi/index.php" />
-        <option value="$PROJECT_DIR$/stream/index.php" />
-        <option value="$PROJECT_DIR$/local/templates/main/header.php" />
-        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/sokolru/public_html/local/components/taxi/news.list/templates/taxi/template.php" />
-        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/bitrix/.settings.php" />
-        <option value="$PROJECT_DIR$/local/modules/cab.tools/lib/CBTools.php" />
-        <option value="$PROJECT_DIR$/local/templates/main/components/tmp/taxi/news.list/taxi/template.php" />
-        <option value="$PROJECT_DIR$/local/components/taxi/momentjs/moment.min.js" />
-        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/sokolru/public_html/local/components/taxi/ext.feedback.form/templates/taxi/template.php" />
-        <option value="$PROJECT_DIR$/local/components/taxi/ext.feedback.form/templates/taxi/template.php" />
-        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/ajaxElemForm.php" />
-        <option value="$PROJECT_DIR$/local/modules/cab.extfeedbackform/include.php" />
-        <option value="$PROJECT_DIR$/local/components/taxi/ext.feedback.form/component.php" />
-        <option value="$PROJECT_DIR$/local/components/taxi/ext.feedback.form/templates/taxi_new/template.php" />
-        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/style.css" />
-        <option value="$PROJECT_DIR$/local/php_interface/init.php" />
-        <option value="$PROJECT_DIR$/local/components/taxi/config/config.php" />
-        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/bitrix/modules/main/include.php" />
-        <option value="$PROJECT_DIR$/local/components/taxi/cronscript.php" />
-        <option value="$PROJECT_DIR$/local/components/taxi/contracts/createContract.php" />
         <option value="$PROJECT_DIR$/local/components/taxi/files/file.txt" />
         <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/local/vendor/phpmailer/phpmailer/src/PHPMailer.php" />
-        <option value="$PROJECT_DIR$/stream/taxi/index.php" />
         <option value="$PROJECT_DIR$/stream/taxi/file.txt" />
+        <option value="$PROJECT_DIR$/local/components/taxi/debug/Debugger.php" />
+        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/local/php_interface/init.php" />
+        <option value="$PROJECT_DIR$/local/php_interface/init.php" />
         <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/Driver.php" />
+        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/sokolru/public_html/local/php_interface/init.php" />
+        <option value="$PROJECT_DIR$/local/modules/taxi/install/index.php" />
+        <option value="$PROJECT_DIR$/local/modules/taxi/install/version.php" />
+        <option value="$PROJECT_DIR$/local/modules/taxi/lib/CBTools.php" />
+        <option value="$PROJECT_DIR$/local/modules/taxi/include.php" />
+        <option value="$PROJECT_DIR$/stream/taxi/index.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/ext.feedback.form/templates/taxi_new/template.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/ajaxElemForm.php" />
+        <option value="$PROJECT_DIR$/stream/taчi/index.php" />
+        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/local/components/taxi/news.list/templates/taxi/cronscript.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/src/DriverData.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/config/config.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/init.php" />
+        <option value="$PROJECT_DIR$/bitrix_server_test.php" />
+        <option value="$PROJECT_DIR$/stream/index.php" />
+        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/bitrix/modules/main/include/prolog_before.php" />
+        <option value="$PROJECT_DIR$/stream/test.php" />
+        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/bitrix/cronscript.php" />
+        <option value="$PROJECT_DIR$/bitrix/cronscript.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/cronscript.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/.parameters.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/.parameters.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/contracts/createContract.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/DriverData.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/createContract.php" />
         <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/template.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/result_modifier.php" />
+        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/local/components/taxi/contracts/cronscript1.php" />
+        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/bitrix/php_interface/dbconn.php" />
+        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/bitrix/php_interface/cron_events.php" />
+        <option value="$PROJECT_DIR$/local/composer.json" />
+        <option value="$PROJECT_DIR$/stream/form/index.php" />
+        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/tim/public_html/bitrix/php_interface/dbconn.php" />
+        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/tim/public_html/bitrix/php_interface/cron_events.php" />
+        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/tim/public_html/bitrix/php_interface/init.php" />
+        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/tim/public_html/cron.php" />
+        <option value="$PROJECT_DIR$/local/cron.php" />
+        <option value="$PROJECT_DIR$/stream/cron/index.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/contracts/cronscript1.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/settings.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/ApiData.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/Db.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/dbs.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript.php" />
       </list>
     </option>
   </component>
@@ -262,14 +282,14 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="44" />
-    <option name="y" value="-24" />
+    <option name="x" value="-9" />
+    <option name="y" value="-14" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -296,7 +316,22 @@
               <item name="caytex" type="462c0819:PsiDirectoryNode" />
               <item name="local" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="cab.extfeedbackform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caytex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caytex" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="taxi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caytex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caytex" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="taxi" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="caytex" type="b2602c69:ProjectViewProjectNode" />
@@ -328,6 +363,14 @@
             <path>
               <item name="caytex" type="b2602c69:ProjectViewProjectNode" />
               <item name="caytex" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="taxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caytex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caytex" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,12 +378,165 @@
               <item name="caytex" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
               <item name="taxi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caytex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caytex" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="taчi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="bitrix" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="contracts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="includes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="php_interface" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,21 +547,25 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/local/components/taxi/files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\stream\taxi" />
-      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\news.list\templates\taxi" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\news.list\templates\taxi\includes" />
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\news.list\templates\taxi" />
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\modules" />
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\src" />
       <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\files" />
-      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\ext.feedback.form\templates" />
-      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\news.list\templates" />
-      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\contracts" />
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\news.list\templates\taxi\includes" />
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex" />
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\news.list\templates\taxi" />
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -392,7 +592,13 @@
       <updated>1588171254943</updated>
       <workItem from="1588171256244" duration="56257000" />
       <workItem from="1588331701933" duration="71000" />
-      <workItem from="1588362978070" duration="14096000" />
+      <workItem from="1588362978070" duration="52746000" />
+      <workItem from="1588526788100" duration="87791000" />
+      <workItem from="1588950718174" duration="7924000" />
+      <workItem from="1589009084093" duration="8261000" />
+      <workItem from="1589179582751" duration="1279000" />
+      <workItem from="1589210627900" duration="6551000" />
+      <workItem from="1589283290603" duration="20586000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1588248445574</created>
@@ -408,11 +614,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588331750433</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="transfer init">
+      <created>1588404605310</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588404605317</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70424000" />
+    <option name="totallyTimeSpent" value="241466000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -427,7 +640,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16932908" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15335463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.15282215" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -439,106 +652,69 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.10918919" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.113513514" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Tail" order="12" />
-      <window_info anchor="bottom" id="File Transfer" order="13" visible="true" weight="0.14594595" />
+      <window_info anchor="bottom" id="File Transfer" order="13" visible="true" weight="0.032432433" />
       <window_info anchor="bottom" id="Migrations" order="14" weight="0.074594595" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.26783812" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.4084132" />
       <window_info anchor="right" id="Database" order="4" weight="0.32960597" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="transfer init" />
+    <option name="LAST_COMMIT_MESSAGE" value="transfer init" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/component.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/templates/main/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
-          <folding>
-            <element signature="e#2983#3502#0#HTML" />
-            <element signature="e#4230#4519#0#PHP" />
-            <element signature="e#4621#5602#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi1/template.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/modules/cab.tools/lib/CBTools.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/templates/main/components/tmp/taxi/news.list/taxi/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="114" column="7" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/momentjs/moment.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53324" selection-start-column="53324" selection-end-column="53324" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/ext.feedback.form/templates/taxi/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/ajaxElemForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="104" column="35" lean-forward="true" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/ext.feedback.form/component.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="889" column="31" lean-forward="true" selection-start-line="889" selection-start-column="31" selection-end-line="889" selection-end-column="31" />
-          <folding>
-            <element signature="e#44894#44918#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/ext.feedback.form/templates/taxi_new/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9557">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="n#script#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local/modules/cab.extfeedbackform/include.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -549,45 +725,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5400">
-          <caret line="200" column="17" lean-forward="true" selection-start-line="200" selection-start-column="17" selection-end-line="200" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/php_interface/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/contracts/createContract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#90#504#0#PHP" />
-            <element signature="e#861#17927#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,29 +739,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/cronscript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/taxi/file.txt">
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/file.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3591">
           <caret line="133" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/Driver.php">
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/src/Transactions.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/debug/Debugger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/modules/cok.testmodule/include.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding>
+            <element signature="n#OnBuildGlobalMenu#0;n#CCokTestmodule#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/modules/cab.tools/install/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="n#InstallDB#0;n#Cab_tools#0;n#!!top" />
+            <element signature="n#UnInstallDB#0;n#Cab_tools#0;n#!!top" />
+            <element signature="e#1806#2123#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/modules/taxi/install/version.php" />
+    <entry file="file://$PROJECT_DIR$/local/modules/taxi/install/index.php" />
+    <entry file="file://$PROJECT_DIR$/local/modules/taxi/lib/CBTools.php" />
+    <entry file="file://$PROJECT_DIR$/local/modules/taxi/include.php" />
+    <entry file="file://$PROJECT_DIR$/stream/taxi/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#100#1562#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/modules/cok.testmodule/install/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
-          <caret line="264" column="5" selection-start-line="264" selection-start-column="5" selection-end-line="264" selection-end-column="5" />
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="n#InstallFiles#0;n#cok_testmodule#0;n#!!top" />
+            <element signature="n#UnInstallFiles#0;n#cok_testmodule#0;n#!!top" />
+            <element signature="n#DoInstall#0;n#cok_testmodule#0;n#!!top" />
+            <element signature="n#DoUninstall#0;n#cok_testmodule#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/ext.feedback.form/templates/taxi_new/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="n#script#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/taчi/index.php" />
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/src/Driver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
           <folding>
             <element signature="e#149#446#0#PHP" />
-            <element signature="n#addTrasferById#0;n#Driver#0;n#!!top" />
             <element signature="n#ammountPrepairById#0;n#Driver#0;n#!!top" />
-            <element signature="n#transferPrepair#0;n#Driver#0;n#!!top" />
             <element signature="n#getBaseDriverById#0;n#Driver#0;n#!!top" />
             <element signature="n#getArrayDiff#0;n#Driver#0;n#!!top" />
             <element signature="n#addDrivers#0;n#Driver#0;n#!!top" />
@@ -632,29 +834,282 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/init.php">
+    <entry file="file://$PROJECT_DIR$/bitrix_server_test.php" />
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/cronscript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <element signature="e#1573#1852#0#PHP" />
+            <element signature="e#1841#2856#0#PHP" />
+            <element signature="e#2950#3212#0#PHP" />
+            <element signature="e#3314#3576#0#PHP" />
+            <element signature="e#3624#4018#0#PHP" />
+            <element signature="e#4378#4412#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/modules/cab.tools/include.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/taxi/index.php">
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/.parameters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="162">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/contracts/createContract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="e#662#2124#0#PHP" />
-            <element signature="e#655#2658#0#PHP" />
+            <element signature="e#862#17928#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/.parameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/createContract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#1403#18469#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="5" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/Driver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/DriverData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="159" column="9" lean-forward="true" selection-start-line="148" selection-start-column="8" selection-end-line="159" selection-end-column="9" />
+          <folding>
+            <element signature="n#getApiAllDrivers#0;n#DriverData#0;n#!!top" />
+            <element signature="n#addDrivers#0;n#DriverData#0;n#!!top" />
+            <element signature="n#getApiDriverById1#0;n#DriverData#0;n#!!top" />
+            <element signature="n#getApiDriverBalance#0;n#DriverData#0;n#!!top" />
+            <element signature="n#transferPrepair#0;n#DriverData#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="675">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#!!top" />
-            <element signature="n#div#0;n#!!top" />
-            <element signature="n#table#0;n#!!top" />
-            <element signature="n#script#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/ajaxElemForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="51" selection-start-line="51" selection-end-line="162" selection-end-column="4" />
+          <folding>
+            <element signature="e#1660#5838#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/result_modifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#2#0#PHP" />
+            <element signature="e#152#636#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/php_interface/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="n#pretty_print#0;n#!!top" />
+            <element signature="n#pretty_print_rec#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/vendor/guzzle/guzzle/src/Guzzle/Http/CachingEntityBody.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/modules/cab.tools/options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/modules/cab.tools/lib/CBTools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/form/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/php_interface/dbconn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="3" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#6#335#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/contracts/cronscript1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="137" column="2" selection-start-column="5" selection-end-line="137" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/src/DriverData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="180" column="5" lean-forward="true" selection-start-line="180" selection-start-column="5" selection-end-line="180" selection-end-column="5" />
+          <folding>
+            <element signature="n#getApiAllDrivers#0;n#DriverData#0;n#!!top" />
+            <element signature="e#1192#1645#0#PHP" />
+            <element signature="n#getArrayDiff#0;n#DriverData#0;n#!!top" />
+            <element signature="n#getArrayDiff1#0;n#DriverData#0;n#!!top" />
+            <element signature="n#addDrivers#0;n#DriverData#0;n#!!top" />
+            <element signature="n#deleteDrivers#0;n#DriverData#0;n#!!top" />
+            <element signature="n#getApiDriverBalance#0;n#DriverData#0;n#!!top" />
+            <element signature="n#transferPrepair#0;n#DriverData#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/cron/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/ApiData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="71" />
+          <folding>
+            <element signature="e#46#1376#0#PHP" />
+            <element signature="e#1441#2415#0#PHP" />
+            <element signature="e#2461#4529#0#PHP" />
+            <element signature="e#2587#3167#0#PHP" />
+            <element signature="e#4550#4935#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/dbs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6222">
+          <caret line="1486" column="1" selection-start-line="1486" selection-start-column="1" selection-end-line="1486" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript1.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="e#647#1121#0#PHP" />
           </folding>
         </state>
       </provider>

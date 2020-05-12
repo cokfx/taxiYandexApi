@@ -23,44 +23,22 @@
 // TODO тестить на id=562
 
 $this->setFrameMode(true);
-include_once __DIR__ . '/init.php';
-include_once __DIR__ . '/Driver.php';
-use PHPMailer\PHPMailer\PHPMailer;
 
-use PHPMailer\PHPMailer\Exception;
-
-$mail=new PHPMailer(true);
-
-$mail->CharSet = 'utf-8';
-$body = "Мое первое письмо отправленно с помощью PHPMailer";
-$mail->SetFrom('name@yourdomain.com', 'First Last');
-$mail->AddAddress("230267@bk.ru", "John Doe");
-$mail->Subject = "PHPMailer Тестовое письмо используя mail()";
-$mail->addAttachment('file.txt','file.txt');        // Add attachments
-//$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-//$mail->isHTML(true);
-
-$mail->Body=$body;
-
-if(!$mail->Send()){
-    echo "Ошибка отправки письма: " . $mail->ErrorInfo;
+if ($arResult['SINCHR']['ADD']||$arResult['SINCHR']['DEL']){
+    foreach ($arResult['SINCHR']['ADD'] as $add){
+        echo $add;
+    }
+    foreach ($arResult['SINCHR']['DEL'] as $del){
+        echo $del;
+    }
 }else{
-    echo "Письмо отправленно!";
+    echo $arResult['SINCHR'];
 }
 
 
-
-
-
-$driverId="71bb388cc57941dca0ad42e2b4029731";//Прохоренко Андрей
-//Driver::addTrasferById($driverId,992.25);
-//Driver::getArrayApiAllDrivers();
-//Driver::getArrayApiDriverById();
-//Driver::ammountPrepairById();
-
-Driver::addDrivers($arResult);
-
+$driverId=$arParams['DRIVER_ID'];//Прохоренко Андрей
 ?>
+
 <style>
     .modal .modal-title {
         display: inline-block;
@@ -102,7 +80,9 @@ Driver::addDrivers($arResult);
 <table id="example1" class="display" cellspacing="0" width="100%">
     <thead>
     <tr>
-        <th>ID водителя</th>
+        <th>№ п.п.</th>
+        <th>ID водителя база</th>
+        <th>ID водителя из Яндекс</th>
         <th>ФИО</th>
         <th>Телефон</th>
         <th>Дата подписания</th>
@@ -115,7 +95,9 @@ Driver::addDrivers($arResult);
     <? foreach ($arResult['ITEMS'] as $i => $item): ?>
 
         <tr>
-            <td> <?= $item['PROPERTY_71']; ?></td>
+            <td> <?= $i+1; ?></td>
+            <td> <?= $item['ID']; ?></td>
+            <td> <?= $item['PROPERTIES']['ID_FROM_YT']['VALUE']; ?></td>
             <td>
                 <span class="nameDriver" data-id="<?= $item['ID']; ?>" onclick="modalOpen(this)">
                     <?= $item['NAME'] ?>
@@ -124,7 +106,7 @@ Driver::addDrivers($arResult);
 
             <td>
                 <?
-                $phones = $item['PROPERTY_72'];
+                $phones = $item['PROPERTIES']['DRIVER_PHONES']['VALUE'];
 
                 foreach ($phones as $i => $phone) {
 
@@ -133,8 +115,8 @@ Driver::addDrivers($arResult);
 
             </td>
             <td>
-                <? if ($item['PROPERTY_70'] != "") {
-                    echo $item['PROPERTY_70'];
+                <? if ($item['PROPERTIES']['DRIVER_DATE_AGREE']['VALUE']!= "") {
+                    echo $item['PROPERTIES']['DRIVER_DATE_AGREE']['VALUE'];
                 } else {
                     echo "Договор не заполнен";
                 }
@@ -144,8 +126,8 @@ Driver::addDrivers($arResult);
             </td>
             <td><a download href="/local/text.txt">Скачать</a></td>
             <td>
-                <? if ($item['PROPERTY_70'] != "") { ?>
-                    <a download href="/local/components/taxi/contracts/createContract.php?id=<?= $item['ID']; ?>">
+                <? if ($item['PROPERTIES']['DRIVER_DATE_AGREE']['VALUE'] != "") { ?>
+                    <a download href="<?=$templateFolder?>/includes/createContract.php?id=<?= $item['ID']; ?>">
                         Скачать
                     </a>
                 <? } else {
@@ -163,7 +145,7 @@ Driver::addDrivers($arResult);
 </table>
 
 
-<script src="<? /*= SITE_DIR*/ ?>/local/components/taxi/momentjs/moment.min.js"></script>
+<script src="<?= $componentPath ?>/../momentjs/moment.min.js"></script>
 
 <? $this->addExternalJS($templateFolder . "/js.js"); ?>
 <script>

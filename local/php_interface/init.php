@@ -4,12 +4,14 @@ AddEventHandler("iblock", "OnAfterIBlockElementUpdate", "IBlockAfterSave");
 //require
 require(__DIR__.'/../vendor/autoload.php');
 
-function pretty_print($in,$opened = true,$die=false){
+function pretty_print($in,$opened = true,$die=false,$description1){
     if($opened)
         $opened = ' open';
     if(is_object($in) or is_array($in)){
         echo '<div style="margin-left: 30%;">';
+        echo '<div>'.$description1.'</div>';
         echo '<details'.$opened.'>';
+
         echo '<summary>';
         echo (is_object($in)) ? 'Object {'.count((array)$in).'}':'Array ['.count($in).']';
         echo '</summary>';

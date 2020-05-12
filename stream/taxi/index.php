@@ -2,6 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
 $APPLICATION->SetTitle("Такси");
+
 ?>
 <?/*
 $arEventFields = array(
@@ -33,6 +34,7 @@ $arEventFields = array(
 $arrSITE =  CAdvContract::GetSiteArray($CONTRACT_ID);
 CEvent::Send("ADV_CONTRACT_INFO", $arrSITE, $arEventFields);
 */?>
+
 
 <?$APPLICATION->IncludeComponent(
     "taxi:news.list",

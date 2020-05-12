@@ -1,4 +1,5 @@
-<? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die(); //echo '<pre>';print_r($arResult);echo '<pre>';?>
+<? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
+//echo '<pre>';print_r($arResult);echo '<pre>';?>
 <?
 include_once SITE_TEMPLATE_PATH . '/components/bitrix/news.list/taxi/Driver.php';
 

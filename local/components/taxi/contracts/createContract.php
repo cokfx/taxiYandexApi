@@ -1,10 +1,23 @@
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.php");
 if ($_REQUEST['id'] != "") {
+
     if (\Bitrix\Main\Loader::includeModule('iblock')) {$arSort = array();
         $arFilter = array('ACTIVE' => 'Y','IBLOCK_ID' => 17,"ID"=>$_REQUEST['id']);
-        $arSelect = array('ID', 'NAME', 'CODE',"PROPERTY_*");
+        $arSelect = array(
+            'ID',
+            'NAME',
+            'CODE',
+            "PROPERTY_DRIVER_DATE_AGREE",
+            "PROPERTY_DRIVER_BANK",
+            "PROPERTY_DRIVER_BANK_BIK",
+            "PROPERTY_DRIVER_KOR_SCHET",
+            "PROPERTY_LAST_NAME_PAYEE",
+            "PROPERTY_FIRST_NAME_PAYEE",
+            "PROPERTY_MIDDLE_NAME_PAYEE",
+            "PROPERTY_DRIVER_PAYMENT_ACCOUNT"
+            );
         $res = CIBlockElement::getList($arSort, $arFilter, false, false, $arSelect);
-        if ($row = $res->fetch()) {
+        while($row = $res->GetNext()) {
             $arRes = $row;
         }
     }
@@ -12,13 +25,14 @@ if ($_REQUEST['id'] != "") {
 use Dompdf\Dompdf;
 
 $title = $arRes['NAME'];
-$dateAgree=$arRes['PROPERTY_70'];
-$bankName=$arRes['PROPERTY_78'];
-$bankBik=$arRes['PROPERTY_77'];
-$korShet=$arRes['PROPERTY_79'];
-$shetPoluchatel=$arRes['PROPERTY_76'];
-$poluchatel=$arRes['PROPERTY_73']." ".$arRes['PROPERTY_74']." ".$arRes['PROPERTY_75'];
-$bankCard=$arRes['PROPERTY_82'];
+$dateAgree=$arRes['PROPERTY_DRIVER_DATE_AGREE_VALUE'];
+$bankName=$arRes['PROPERTY_DRIVER_BANK_VALUE'];
+$bankBik=$arRes['PROPERTY_DRIVER_BANK_BIK_VALUE'];
+$korShet=$arRes['PROPERTY_DRIVER_KOR_SCHET_VALUE'];
+$shetPoluchatel=$arRes['PROPERTY_DRIVER_PAYMENT_ACCOUNT_VALUE'];
+$poluchatel=$arRes['PROPERTY_LAST_NAME_PAYEE_VALUE']." ".$arRes['PROPERTY_FIRST_NAME_PAYEE_VALUE']." ".$arRes['PROPERTY_MIDDLE_NAME_PAYEE_VALUE'];
+$bankCard=$arRes['PROPERTY_BANK_CARD_VALUE'];
+
 //ob_start();
 $HTML = <<<FOOBAR
 <!DOCTYPE html>

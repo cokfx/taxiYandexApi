@@ -1,5 +1,7 @@
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.php"); ?>
 <?php
+include_once __DIR__ . '/../../../src/DriverData.php';
+
 //ob_start();
 global $elemId;
 
@@ -7,8 +9,46 @@ if ($_REQUEST['act'] = 'update' && $_REQUEST['id']) {
 
     $elemId = $_REQUEST['id'];
 }
-?>
+$configArray = [
 
+
+    'CURLOPT_URL_LIST' => 'https://fleet-api.taxi.yandex.net/v1/parks/driver-profiles/list',
+    'CURLOPT_URL_TRANSACTIONS' => 'https://fleet-api.taxi.yandex.net/v2/parks/driver-profiles/transactions',
+    'PARK_ID' => 'e19d549e69f548c6b4aad5bae570b4ba',
+    'Client_ID' => 'taxi/park/e19d549e69f548c6b4aad5bae570b4ba',
+    'API_Key' => 'WDk/JSTplDJldWoDRpkmBPYUflHoczTiT',
+
+    'to_post_adress'=>'230267@bk.ru',
+    'from_post_adress'=>'230267av@ya.ru',
+];
+\Bitrix\Main\Loader::includeModule('iblock');
+$arSort = array();
+$arFilter = array('ACTIVE' => 'Y', 'IBLOCK_ID' => 17,"ID"=>$elemId);
+$arSelect = array('ID', 'NAME','PROPERTY_ID_FROM_YT');
+$res = CIBlockElement::getList($arSort, $arFilter, false, false, $arSelect);
+if ($row = $res->fetch()) {
+    $arResult = $row;
+
+}
+
+$driver_profile_id=$arResult['PROPERTY_ID_FROM_YT_VALUE'];//Прохоренко $arResult['PROPERTY_ID_FROM_YT_VALUE']
+$driver= new DriverData($configArray['Client_ID'],$configArray['API_Key'],$configArray);
+
+$httpHeader=$driver->httpHeader;?>
+<div style="font-size: 22px; font-weight: bold; color: blue; text-align: center; height: 60px;margin-bottom: 20px">
+
+<?
+echo '<p>';
+echo $arResult['NAME'];
+echo '</p>';
+
+echo '<p>';
+echo(DriverData::getApiDriverBalance($httpHeader, $configArray['CURLOPT_URL_LIST'], $configArray['PARK_ID'], $driver_profile_id));
+echo " руб.";
+echo '</p>';
+
+?>
+</div>
 <?
 $APPLICATION->IncludeComponent(
     "taxi:ext.feedback.form",
