@@ -42,7 +42,7 @@ class ApiData
 
     }
 
-    // добавление водителя(ей) из апи если их нет на сайте
+    // РґРѕР±Р°РІР»РµРЅРёРµ РІРѕРґРёС‚РµР»СЏ(РµР№) РёР· Р°РїРё РµСЃР»Рё РёС… РЅРµС‚ РЅР° СЃР°Р№С‚Рµ
     static function addDrivers($arrDif)
     {
 
@@ -61,7 +61,7 @@ class ApiData
                 );
 
                 if ($PRODUCT_ID = $el->Add($arLoadProductArray)) {
-                    echo "Добавлен новый водитель: " . $driverName;
+                    echo "Р”РѕР±Р°РІР»РµРЅ РЅРѕРІС‹Р№ РІРѕРґРёС‚РµР»СЊ: " . $driverName;
                     echo '<br>';
                 } else {
                     echo "Error: " . $el->LAST_ERROR;
@@ -74,7 +74,7 @@ class ApiData
 
     }
 
-    // водитель по его ID из апи яндекс
+    // РІРѕРґРёС‚РµР»СЊ РїРѕ РµРіРѕ ID РёР· Р°РїРё СЏРЅРґРµРєСЃ
     public static function getApiDriverById($HttpHeader,$apiUrl, $parkID, $driver_profile_id)
     {
         $queryDriverByIDMin = array(
@@ -102,8 +102,8 @@ class ApiData
 
         );
         //{"fields":{"car":[],"park":[],"driver_profile":["first_name","last_name","middle_name","phones","id"],"account":["id","balance","balance_limit","currency"]},"query":{"park":{"id":"e19d549e69f548c6b4aad5bae570b4ba","driver_profile":{"id":["71bb388cc57941dca0ad42e2b4029731"]}}}}
-        //$queryDriverByIDMin = '{"fields":{"car":[],"park":[],"driver_profile":["first_name","last_name","middle_name","phones","id"],"account":["id","balance","balance_limit","currency"]},"query":{"park":{"id":"e19d549e69f548c6b4aad5bae570b4ba","driver_profile":{"id":["71bb388cc57941dca0ad42e2b4029731"]}}}}';// Прохоренко
-        $queryDriverByIDMin = json_encode($queryDriverByIDMin);// Прохоренко
+        //$queryDriverByIDMin = '{"fields":{"car":[],"park":[],"driver_profile":["first_name","last_name","middle_name","phones","id"],"account":["id","balance","balance_limit","currency"]},"query":{"park":{"id":"e19d549e69f548c6b4aad5bae570b4ba","driver_profile":{"id":["71bb388cc57941dca0ad42e2b4029731"]}}}}';// РџСЂРѕС…РѕСЂРµРЅРєРѕ
+        $queryDriverByIDMin = json_encode($queryDriverByIDMin);// РџСЂРѕС…РѕСЂРµРЅРєРѕ
 
         $curl = curl_init();
         curl_setopt_array($curl, array(
@@ -126,7 +126,7 @@ class ApiData
         return $arrApiAll = json_decode($output, true);
     }
 
-    // балланс водителя из АПИ
+    // Р±Р°Р»Р»Р°РЅСЃ РІРѕРґРёС‚РµР»СЏ РёР· РђРџР
 
     public static function getApiDriverBalance($HttpHeader, $apiUrl, $parkID, $driver_profile_id)
     {
