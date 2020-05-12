@@ -3,7 +3,7 @@ $arrSettings = include __DIR__ . '/settings.php';
 $arrConfig = $arrSettings['arrConfig'];
 $dbOptions = $arrSettings['db'];
 include(__DIR__ . '/../../../../../../vendor/autoload.php');
-include __DIR__ . '/ApiData.php';// работа с данными водителей
+include __DIR__ . '/ApiData.php';// СЂР°Р±РѕС‚Р° СЃ РґР°РЅРЅС‹РјРё РІРѕРґРёС‚РµР»РµР№
 use Data\ApiData;
 
 $pdo = new \PDO(
@@ -25,7 +25,7 @@ $pdo->exec('SET NAMES UTF8');
 'ostatok' => 860.9900
 ];*/
 
-$driver_profile_id = "71bb388cc57941dca0ad42e2b4029731";//Прохоренко
+$driver_profile_id = "71bb388cc57941dca0ad42e2b4029731";//РџСЂРѕС…РѕСЂРµРЅРєРѕ
 $ostatok = $arrConfig['ostatok'];
 $ostatok = 850.9900;
 $apiUrlList = $arrConfig['CURLOPT_URL_LIST'];
