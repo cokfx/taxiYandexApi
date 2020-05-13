@@ -27,7 +27,8 @@ if ($balance > $ostatok) {
 }
 
 
-file_put_contents('file.txt', '1CClientBankExchange
+file_put_contents('file.txt',
+    '1CClientBankExchange
 ВерсияФормата=1.02
 Кодировка=Windows
 Отправитель=Бухгалтерия предприятия, редакция 3.0

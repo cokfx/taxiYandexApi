@@ -10,7 +10,7 @@ class Db
 
     public function __construct()
     {
-        $dbSett = include __DIR__ . '/settings.php';
+        $dbSett = include __DIR__ . '/settings.php';// DB settings
         $dbOptions=$dbSett['db'];
         $this->pdo = new \PDO(
             'mysql:host=' . $dbOptions['DBHost'] . ';dbname=' . $dbOptions['DBName'],
