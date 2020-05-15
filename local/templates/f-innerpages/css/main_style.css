@@ -1,0 +1,461 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End of Eric Meyer's CSS Reset */
+/*burger menu*/
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+#webapp_cover, #js-searchBlock {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 39px;
+    margin: 0 auto;
+    transform: translateY(-50%) scale(2);
+}
+
+.header-left, .header-right {
+    height: 100px;
+}
+
+#menu_button {
+    width: 39px;
+    overflow: hidden;
+}
+
+#menu_checkbox {
+    display: none;
+}
+
+.hiddens {
+    display: none;
+}
+
+#menu_label {
+    position: relative;
+    display: block;
+    height: 29px;
+    cursor: pointer;
+}
+
+#menu_label:before, #menu_label:after, #menu_text_bar {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+}
+
+#menu_label:before, #menu_label:after {
+    content: '';
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55) left;
+}
+
+#menu_label:before {
+    top: 0;
+}
+
+#menu_label:after {
+    top: 12px;
+}
+
+#menu_text_bar {
+    top: 24px;
+}
+
+#menu_text_bar:before {
+    content: 'MENU';
+    position: absolute;
+    top: 5px;
+    right: 0;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#menu_checkbox:checked + #menu_label:before {
+    left: -39px;
+}
+
+#menu_checkbox:checked + #menu_label:after {
+    left: 39px;
+}
+
+#menu_checkbox:checked + #menu_label #menu_text_bar:before {
+    animation: moveUpThenDown 0.8s ease 0.2s forwards, shakeWhileMovingUp 0.8s ease 0.2s forwards, shakeWhileMovingDown 0.2s ease 0.8s forwards;
+}
+
+@keyframes moveUpThenDown {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -27px;
+    }
+    100% {
+        top: -14px;
+    }
+}
+
+@keyframes shakeWhileMovingUp {
+    0% {
+        transform: rotateZ(0);
+    }
+    25% {
+        transform: rotateZ(-10deg);
+    }
+    50% {
+        transform: rotateZ(0deg);
+    }
+    75% {
+        transform: rotateZ(10deg);
+    }
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+@keyframes shakeWhileMovingDown {
+    0% {
+        transform: rotateZ(0);
+    }
+    80% {
+        transform: rotateZ(3deg);
+    }
+    90% {
+        transform: rotateZ(-3deg);
+    }
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+/*end burger*/
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+body {
+    font: 16px/20px Arial, "Open Sans", sans-serif;
+}
+
+/* Begin of styles for the demo (you can remove them) */
+html,
+body {
+    height: 100%;
+}
+
+.main-wrapper {
+    min-height: 100%;
+    margin-bottom: -100px;
+
+}
+
+.clr {
+    min-height: 100px;
+}
+
+.main-backgrnd {
+    background: #fff;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    min-height: 100px;
+    z-index: 111;
+}
+
+.footer {
+    min-height: 100px;
+
+}
+
+main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav li {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.search-block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: none;
+    width: 100%;
+    background-color: #fff;
+    min-height: 100px;
+    -webkit-box-shadow: 0px 10px 11px 0px rgba(50, 50, 50, 0.97);
+    -moz-box-shadow: 0px 10px 11px 0px rgba(50, 50, 50, 0.97);
+    box-shadow: 0px 10px 11px 0px rgba(50, 50, 50, 0.97);
+}
+
+.sections-block {
+    display: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #fff;
+    min-height: 100px;
+    -webkit-box-shadow: 0px 10px 11px 0px rgba(50, 50, 50, 0.97);
+    -moz-box-shadow: 0px 10px 11px 0px rgba(50, 50, 50, 0.97);
+    box-shadow: 0px 10px 11px 0px rgba(50, 50, 50, 0.97);
+}
+
+.loader {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #eae4ea;
+    box-shadow: 0 -2px 2px rgba(0, 0, 0, .2);
+    border-bottom: 2px solid #6ddfca;
+    border-radius: 50%;
+    animation: loader 3s linear infinite;
+}
+
+.loader:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    border: 2px solid #eae4ea;
+    box-shadow: 0 -2px 2px rgba(0, 0, 0, .2);
+    border-bottom: 2px solid #d355be;
+    border-radius: 50%;
+    animation: loader 2s linear infinite;
+}
+
+.loader:after {
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    bottom: 22px;
+    right: 22px;
+    border: 2px solid #eae4ea;
+    box-shadow: 0 -2px 2px rgba(0, 0, 0, .2);
+    border-bottom: 2px solid #8c23ec;
+    border-radius: 50%;
+    animation: loader 1s linear infinite;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+/*
+=======================================================*/
+.header-left{
+    /*line-height: 100px;*/
+}
+.box {
+    border-radius: 2px;
+    position: absolute;
+    top: 25%;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.box .btn1 {
+    width: 80px;
+    cursor: pointer;
+}
+
+.box span {
+    display: block;
+    width: 100%;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    height: 8px;
+    background: #fff;
+    transition: all .3s;
+    position: relative;
+}
+
+span + span {
+    margin-top: 14px;
+}
+
+.active span:nth-child(1) {
+    animation: ease .7s top forwards;
+}
+
+.not-active span:nth-child(1) {
+    animation: ease .7s top-2 forwards;
+}
+
+.active span:nth-child(2) {
+    animation: ease .7s scaled forwards;
+}
+
+.not-active span:nth-child(2) {
+    animation: ease .7s scaled-2 forwards;
+}
+
+.active span:nth-child(3) {
+    animation: ease .7s bottom forwards;
+}
+
+.not-active span:nth-child(3) {
+    animation: ease .7s bottom-2 forwards;
+}
+
+@keyframes top {
+    0% {
+        top: 0;
+        transform: rotate(0);
+    }
+    50% {
+        top: 22px;
+        transform: rotate(0);
+    }
+    100% {
+        top: 22px;
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes top-2 {
+    0% {
+        top: 22px;
+        transform: rotate(45deg);
+    }
+    50% {
+        top: 22px;
+        transform: rotate(0deg);
+    }
+    100% {
+        top: 0;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes bottom {
+    0% {
+        bottom: 0;
+        transform: rotate(0);
+    }
+    50% {
+        bottom: 22px;
+        transform: rotate(0);
+    }
+    100% {
+        bottom: 22px;
+        transform: rotate(135deg);
+    }
+}
+
+@keyframes bottom-2 {
+    0% {
+        bottom: 22px;
+        transform: rotate(135deg);
+    }
+    50% {
+        bottom: 22px;
+        transform: rotate(0);
+    }
+    100% {
+        bottom: 0;
+        transform: rotate(0);
+    }
+}
+
+@keyframes scaled {
+    50% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes scaled-2 {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.fixed{position: fixed;}
+

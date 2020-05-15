@@ -57,6 +57,8 @@ Class CCabExFeedbackForm
                 if (!$element_id = $oElement->Add($arWriteToIBParams['VALUES'], false, true, $arWriteToIBParams['PARAMS']["RESIZE_IMAGES"])) {
                     $this->LAST_ERROR = $oElement->LAST_ERROR;
                     return false;
+                }else{
+                    return $element_id;
                 }
 
                 $arWriteToIBParams['RESULT']['IBLOCK_ELEMENT_ID'] = $element_id;

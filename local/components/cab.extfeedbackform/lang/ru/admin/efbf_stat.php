@@ -1,1 +1,0 @@
-<?	$MESS['EFBF_F_PERIOD'] = 'Период';	$MESS['EFBF_F_FORMS'] = 'Формы';		$MESS['EFBF_FORM'] = 'Форма';	$MESS['EFBF_DATE'] = 'Дата';	$MESS['EFBF_CNT'] = 'Кол-во сообщений';			$MESS['EFBF_F_FIND'] = 'Найти';	$MESS['EFBF_F_FIND_TITLE'] = 'Найти';	$MESS['EFBF_F_CLEAR'] = 'Сброс';	$MESS['EFBF_F_CLEAR_TITLE'] = 'Сброс';?>

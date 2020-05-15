@@ -1,0 +1,3 @@
+<Files cronscript.php>
+    Deny from all
+</Files>

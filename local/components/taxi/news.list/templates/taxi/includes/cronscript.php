@@ -13,18 +13,16 @@ $pdo = new \PDO(
     $dbOptions['DBPassword']
 );
 $pdo->exec('SET NAMES UTF8');
+// ------------------get settings-----------------
 
-/*$arrConfig = [
-'CURLOPT_URL_LIST' => 'https://fleet-api.taxi.yandex.net/v1/parks/driver-profiles/list',
-'CURLOPT_URL_TRANSACTIONS' => 'https://fleet-api.taxi.yandex.net/v2/parks/driver-profiles/transactions',
-'PARK_ID' => 'e19d549e69f548c6b4aad5bae570b4ba',
-'Client_ID' => 'taxi/park/e19d549e69f548c6b4aad5bae570b4ba',
-'API_Key' => 'WDk/JSTplDJldWoDRpkmBPYUflHoczTiT',
+$id1 = 670;
+$query = "SELECT * FROM `b_iblock_element_prop_s20` IBLOCK_ELEMENT_ID=:id;";
+$params = [':id' => $id1];
+$sth = $pdo->prepare($query);
+$stm = $sth->execute($params);
+$arrSets= $sth->fetchAll();
 
-'to_post_adress' => '230267@bk.ru',
-'from_post_adress' => '230267av@ya.ru',
-'ostatok' => 860.9900
-];*/
+//---------------------------------------------------
 
 $driver_profile_id = "71bb388cc57941dca0ad42e2b4029731";//Прохоренко
 $ostatok = $arrConfig['ostatok'];
@@ -81,6 +79,7 @@ foreach ($arrApiAll['driver_profiles'] as $i => $item) {
 
         $id = $item['accounts'][0]['id'];
         //----------------PDO get data from base-----------------------
+
         $query = "SELECT * FROM `b_iblock_element_prop_s17` WHERE PROPERTY_71=:id;";
         $params = [':id' => $id];
         $sth = $pdo->prepare($query);
@@ -160,8 +159,9 @@ if (!$mail->Send()) {
 } else {
     echo "Письмо отправленно!";
 }
+//----------------------Send Mail End-------------------
 
-print_r(count($arrAmmounts));
+print_r($arrSets);
 
 
 

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .stepper {
+        -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    }
+    .stepper {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -webkit-flex-flow: row-reverse nowrap;
+        -ms-flex-flow: row-reverse nowrap;
+        flex-flow: row-reverse nowrap;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .stepper__step_current + .stepper__step {
+        background: #e8eaf9;
+    }
+    .stepper__step_current + .stepper__step {
+        background: #1f83ff;
+    }
+    .stepper__step {
+        margin-right: calc(((100% - 336px) / 9));
+        margin-left: 0;
+    }
+    .stepper__step {
+        position: relative;
+        z-index: 10;
+        margin-left: calc(((100% - 336px) / 9));
+        display: block;
+        width: 42px;
+        height: 42px;
+        text-align: center;
+        background: #e8eaf9;
+        border-radius: 50%;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+    }
+    .stepper__progress {
+        width: 0;
+    }
+    .stepper__progress {
+        position: absolute;
+        z-index: 4;
+        top: 50%;
+        left: 0;
+        width: 20%;
+        height: 10px;
+        background: -webkit-linear-gradient(left, #1f83ff 0, #b187f1 100%);
+        background: linear-gradient(to right, #1f83ff 0, #b187f1 100%);
+        border-radius: 6px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .stepper__step:nth-child(2) {
+        margin-left: calc(((100% - 336px) / 9));
+    }
+    .stepper__step {
+        margin-right: calc(((100% - 336px) / 9));
+        margin-left: 0;
+    }
+    .stepper__step_current {
+        background: #fe5f55;
+    }
+    .stepper__step {
+        position: relative;
+        z-index: 10;
+        margin-left: calc(((100% - 336px) / 9));
+        display: block;
+        width: 42px;
+        height: 42px;
+        text-align: center;
+        background: #e8eaf9;
+        border-radius: 50%;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+    }
+</style>
+<div class="stepper-wrapper mb-3 ">
+    <div class="stepper js-f1003-headers-block">
+        <div class="stepper__progress" style="width: calc((100% - 336px) / 9);"></div>
+
+
+        <div class="stepper__step js-f1003-header-container stepper__step_current" data-id="" id="borrower_information-header">
+            <span class="stepper__number js-f1003-header-count">1</span>
+            <span class="stepper__text js-f1003-header-text">Borrower Information</span>
+        </div>
+
+
+
+        <div class="stepper__step js-f1003-header-container" data-id="" id="loan_property_information-header">
+            <span class="stepper__number js-f1003-header-count">2</span>
+            <span class="stepper__text js-f1003-header-text">Loan Property Information</span>
+        </div>
+
+
+
+        <div class="stepper__step js-f1003-header-container" data-id="" id="type_of_mortgage-header">
+            <span class="stepper__number js-f1003-header-count">3</span>
+            <span class="stepper__text js-f1003-header-text">Type of Mortgage and Terms of Loan</span>
+        </div>
+
+
+
+        <div class="stepper__step js-f1003-header-container" data-id="" id="employment_information-header">
+            <span class="stepper__number js-f1003-header-count">4</span>
+            <span class="stepper__text js-f1003-header-text">Employment Information</span>
+        </div>
+
+
+
+        <div class="stepper__step js-f1003-header-container" data-id="" id="income_information-header">
+            <span class="stepper__number js-f1003-header-count">5</span>
+            <span class="stepper__text js-f1003-header-text">Income Information</span>
+        </div>
+
+
+
+        <div class="stepper__step js-f1003-header-container" data-id="" id="assets-header">
+            <span class="stepper__number js-f1003-header-count">6</span>
+            <span class="stepper__text js-f1003-header-text">Assets and Liabilities</span>
+        </div>
+
+
+
+        <div class="stepper__step js-f1003-header-container" data-id="" id="declarations-header">
+            <span class="stepper__number js-f1003-header-count">7</span>
+            <span class="stepper__text js-f1003-header-text">Declarations</span>
+        </div>
+
+
+
+        <div class="stepper__step js-f1003-header-container" data-id="" id="government_information-header">
+            <span class="stepper__number js-f1003-header-count">8</span>
+            <span class="stepper__text js-f1003-header-text">Government Information</span>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

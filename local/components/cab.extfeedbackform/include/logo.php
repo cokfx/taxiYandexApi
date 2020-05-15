@@ -1,1 +1,0 @@
-<?IncludeModuleLangFile(__FILE__);?><div class="admin-wnd"><a href="http://cab-soft.ru/web-solutions/bitrix-solutions/" target="_blank" class="logo-text">	<span class="black"><?=GetMessage('LT_CAB');?></span> <span class="gray"><?=GetMessage('LT_SOFT');?></span><br/>	<span class="sol gray"><?=GetMessage('LT_SOLUTIONS');?></span></a></div>

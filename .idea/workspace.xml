@@ -5,11 +5,578 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e07881f-67b1-41e0-862f-f162147c2404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/cooments/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/cooments/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/cooments/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/cooments/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/cooments/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/cooments/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/cooments/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/googleCab/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/googleCab/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/googleCab/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/googleCab/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/googleCab/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/googleCab/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/googleCab/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/section_list/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/section_list/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/section_list/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/section_list/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/section_list/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/section_list/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/components/bitrix/news.list/section_list/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/bootstrap-3.3.2-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/bootstrap-3.3.2-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/bootstrap-3.3.2-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/bootstrap-3.3.2-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/bootstrap-3.3.2-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/bootstrap-3.3.2-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/bootstrap_reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/main_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/css/uikit.oknarostapartners.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/LICENSE.LGPL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/autoload.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/Cpdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Courier-Bold.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Courier-BoldOblique.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Courier-Oblique.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Courier.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Courier.afm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSans-Bold.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSans-BoldOblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSans-BoldOblique.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSans-Oblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSans-Oblique.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSans.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSansMono-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSansMono-Bold.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSansMono-BoldOblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSansMono-BoldOblique.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSansMono-Oblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSansMono-Oblique.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSansMono.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSansMono.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSerif-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSerif-Bold.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSerif-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSerif-BoldItalic.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSerif-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSerif-Italic.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSerif.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/DejaVuSerif.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Helvetica-Bold.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Helvetica-BoldOblique.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Helvetica-Oblique.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Helvetica.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Symbol.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Times-Bold.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Times-Bold.afm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Times-BoldItalic.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Times-Italic.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Times-Roman.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/Times-Roman.afm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/ZapfDingbats.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/arial-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/arial-Bold.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/arial-Bold.ufm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/arial-BoldOblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/arial-BoldOblique.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/arial-Oblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/arial-Oblique.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/arial.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/arial.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/arial.ufm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/dompdf_font_family_cache.dist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/mustRead.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/times.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/times.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/times.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/times.ufm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/timesbd.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/timesbd.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/timesbd.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/timesbd.ufm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/timesbi.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/timesbi.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/timesbi.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/fonts/timesbi.ufm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/html5lib/Data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/html5lib/InputStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/html5lib/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/html5lib/Tokenizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/html5lib/TreeBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/html5lib/named-character-references.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/Doxyfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/AtRuleBlockList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSBlockList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/Document.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/KeyFrame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Comment/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Comment/Commentable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/OutputFormat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Parsing/OutputException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Parsing/SourceException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Parsing/UnexpectedTokenException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/AtRule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/CSSNamespace.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/Charset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/Import.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/Selector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Renderable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Rule/Rule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/RuleSet/AtRuleSet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/RuleSet/DeclarationBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/RuleSet/RuleSet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/CSSFunction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/CSSString.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/Color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/PrimitiveValue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/RuleValueList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/Size.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/URL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/Value.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/ValueList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/CSSList/AtRuleBlockListTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/CSSList/DocumentTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/OutputFormatTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/ParserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/RuleSet/DeclarationBlockTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/RuleSet/LenientParsingTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/-charset-after-rule.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/-charset-in-block.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/-empty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/-end-token-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/-end-token.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/-fault-tolerance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/-tobedone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/1readme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/2readme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/atrules.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/case-insensitivity.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/colortest.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/comments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/create-shorthands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/docuwiki.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/expand-shorthands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/functions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/ie-hacks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/important.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/inner-color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/line-numbers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/namespaces.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/nested.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/slashed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/specificity.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/unicode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/url.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/values.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/webkit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/files/whitespace.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-css-parser/tests/quickdump.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/adobe-standard-encoding.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/cp1250.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/cp1251.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/cp1252.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/cp1253.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/cp1254.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/cp1255.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/cp1257.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/cp1258.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/cp874.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/iso-8859-1.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/iso-8859-11.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/iso-8859-15.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/iso-8859-16.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/iso-8859-2.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/iso-8859-4.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/iso-8859-5.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/iso-8859-7.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/iso-8859-9.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/koi8-r.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/maps/koi8-u.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/sample-fonts/IntelClear-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/sample-fonts/NotoSansShavian-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/AdobeFontMetrics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/BinaryStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/EOT/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/EOT/Header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/EncodingMap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Exception/FontNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Font.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Glyph/Outline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Glyph/OutlineComponent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Glyph/OutlineComposite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Glyph/OutlineSimple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/OpenType/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/OpenType/TableDirectoryEntry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/DirectoryEntry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Type/cmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Type/glyf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Type/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Type/hhea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Type/hmtx.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Type/kern.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Type/loca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Type/maxp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Type/name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Type/nameRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Type/os2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/Table/Type/post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/TrueType/Collection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/TrueType/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/TrueType/Header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/TrueType/TableDirectoryEntry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/WOFF/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/WOFF/Header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/src/FontLib/WOFF/TableDirectoryEntry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-font-lib/tests/FontLib/FontTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/DefaultStyle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Document.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Gradient/Stop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Surface/CPdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Surface/SurfaceCpdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Surface/SurfaceGmagick.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Surface/SurfaceInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Surface/SurfacePDFLib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/AbstractTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Anchor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Circle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/ClipPath.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Ellipse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Group.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Line.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/LinearGradient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Path.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Polygon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Polyline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/RadialGradient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Rect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Shape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Stop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/StyleTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/Svg/Tag/UseTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/src/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/php-svg-lib/tests/Svg/StyleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/res/broken_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/lib/res/html.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/phpcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Adapter/CPDF.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Adapter/GD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Adapter/PDFLib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Canvas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/CanvasFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Cellmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Css/AttributeTranslator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Css/Color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Css/Style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Css/Stylesheet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Dompdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Exception/ImageException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FontMetrics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Frame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Frame/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Frame/FrameList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Frame/FrameListIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Frame/FrameTree.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Frame/FrameTreeIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Frame/FrameTreeList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/AbstractFrameDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/Inline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/ListBullet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/ListBulletImage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/NullFrameDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/Page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/Table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/TableCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/TableRow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/TableRowGroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameDecorator/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameReflower/AbstractFrameReflower.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameReflower/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameReflower/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameReflower/Inline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameReflower/ListBullet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameReflower/NullFrameReflower.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameReflower/Page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameReflower/Table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameReflower/TableCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameReflower/TableRow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameReflower/TableRowGroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/FrameReflower/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Image/Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/JavascriptEmbedder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/LineBox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/PhpEvaluator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Positioner/Absolute.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Positioner/AbstractPositioner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Positioner/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Positioner/Fixed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Positioner/Inline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Positioner/ListBullet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Positioner/NullPositioner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Positioner/TableCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Positioner/TableRow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Renderer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Renderer/AbstractRenderer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Renderer/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Renderer/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Renderer/Inline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Renderer/ListBullet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Renderer/TableCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Renderer/TableRowGroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/dompdf/src/Renderer/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/img/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/img/favicon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/img/p2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/img/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/img/p5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/img/p6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/img/p7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/img/search-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/js/bootstrap-3.3.2-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/js/bootstrap-3.3.2-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/js/bootstrap-3.3.2-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/js/jquery.fancybox.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/js/jquery.transit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/OwlCarousel2-2.2.1/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/OwlCarousel2-2.2.1/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/OwlCarousel2-2.2.1/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/OwlCarousel2-2.2.1/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/greensock/ScrollToPlugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/greensock/TimelineMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/greensock/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/greensock/animation.gsap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/parallax-js-master/parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/progressbar/progressbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/f-innerpages/plugins/scrollmagic/ScrollMagic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/form/agree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/form/steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/files/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/admin/efbf_forms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/admin/efbf_forms_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/admin/efbf_index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/admin/efbf_stat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/admin/efbf_stat_graph.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/admin/efbf_stat_graph_legend.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/classes/mysql/CEFBF_Forms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/classes/mysql/CEFBF_Stat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/colors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/include.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/include/logo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/db/mysql/install.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/db/mysql/uninstall.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/gadgets/cab/extfeedbackform/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/gadgets/cab/extfeedbackform/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/gadgets/cab/extfeedbackform/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/gadgets/cab/extfeedbackform/lang/ru/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/gadgets/cab/extfeedbackform/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/gadgets/cab/extfeedbackform/lang/ru/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/inst1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/inst2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/js/cab.misc/checkbox/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/js/cab.misc/cusel/js/cusel-2.5_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/js/cab.misc/cusel/js/cusel-multiple-0.9_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/js/cab.misc/ie/PIE.htc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/js/cab.misc/ie/PIE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/js/cab.misc/jquery-1.6.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/js/cab.misc/radiobox/radiobox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/images/eaddform.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/lang/en/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/lang/en/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/lang/en/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/lang/ru/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/lang/ru/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/lang/ru/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.default/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/.parameters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.default/component_epilog.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/component_epilog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.default/images/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/images/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.default/lang/en/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/lang/en/.parameters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.default/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/lang/en/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.default/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.default/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/lang/ru/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.default/reload_captcha.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/reload_captcha.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.default/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.default/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/component_epilog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/css/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/css/cusel-multiple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/css/cusel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/css/images/checkbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/css/images/radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/css/images/selects-2-dis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/css/images/selects-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/css/images/selects-focus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/css/images/selects-multiple-dis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/css/images/selects-multiple-focus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/css/images/selects-multiple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/css/radiobox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/images/button-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/images/error-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/lang/ru/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/lang/ru/.parameters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/reload_captcha.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.silver-blue/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/component_epilog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/css/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/css/cusel-multiple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/css/cusel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/css/images/checkbox.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/css/images/radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/css/images/selects-2-dis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/css/images/selects-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/css/images/selects-focus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/css/images/selects-multiple-dis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/css/images/selects-multiple-focus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/css/images/selects-multiple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/css/radiobox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/images/button_vk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/images/upload.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/reload_captcha.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/public/components/cab/ext.feedback.form/templates/.vkontakte/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/themes/.default/cab.extfeedbackform.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/themes/.default/icons/cab.extfeedbackform/cab_soft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/themes/.default/icons/cab.extfeedbackform/efbf_forms_menu_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/themes/.default/icons/cab.extfeedbackform/efbf_forms_page_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/themes/.default/icons/cab.extfeedbackform/efbf_menu_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/themes/.default/icons/cab.extfeedbackform/efbf_stat_menu_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/themes/.default/icons/cab.extfeedbackform/efbf_stat_page_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/uninst1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/uninst2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/install/version.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/lang/ru/admin/efbf_forms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/lang/ru/admin/efbf_forms_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/lang/ru/admin/efbf_index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/lang/ru/admin/efbf_stat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/lang/ru/include.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/lang/ru/include/logo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/lang/ru/install/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/cab.extfeedbackform/prolog.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript1.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/modules/cab.extfeedbackform/include.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/cab.extfeedbackform/include.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,72 +612,91 @@
       <favorite_root url="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/style.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       <favorite_root url="file://$PROJECT_DIR$/stream/taxi/index.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       <favorite_root url="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/Driver.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript1.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/Db.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/ApiData.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/settings.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+    <favorites_list name="F1">
+      <favorite_root url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1/template.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1/style.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="620" column="53" selection-start-line="620" selection-start-column="53" selection-end-line="620" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+              <folding>
+                <element signature="n#generatePassword#0;n#!!top" />
+                <element signature="n#div#0;n#!!top" />
+                <element signature="n#div#1;n#!!top" />
+                <element signature="e#26131#26162#0#PHP" expanded="true" />
+                <element signature="e#29603#29641#0#PHP" expanded="true" />
+                <element signature="e#32525#32563#0#PHP" expanded="true" />
+                <element signature="e#33530#33566#0#PHP" expanded="true" />
+                <element signature="e#33752#33788#0#PHP" expanded="true" />
+                <element signature="e#34089#34129#0#PHP" expanded="true" />
+                <element signature="e#34799#34832#0#PHP" expanded="true" />
+                <element signature="e#35976#36013#0#PHP" expanded="true" />
+                <element signature="e#39382#39419#0#PHP" expanded="true" />
+                <element signature="e#42872#42909#0#PHP" expanded="true" />
+                <element signature="e#46741#46781#0#PHP" expanded="true" />
+                <element signature="e#47693#47729#0#PHP" expanded="true" />
+                <element signature="e#48222#48263#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/cron/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+              <folding>
+                <element signature="e#96#98#0#PHP" />
+                <element signature="e#119#1373#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript.php">
+        <entry file="file://$PROJECT_DIR$/stream/form/personal/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-              <folding>
-                <element signature="e#647#1121#0#PHP" />
-                <element signature="e#2244#2538#0#PHP" />
-                <element signature="e#2244#3953#0#PHP" />
-                <element signature="e#3284#4669#0#PHP" />
-                <element signature="e#4845#4879#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/Db.php">
+        <entry file="file://$PROJECT_DIR$/local/templates/f-innerpages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+            <state relative-caret-position="1944">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/ApiData.php">
+        <entry file="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="71" />
-              <folding>
-                <element signature="e#46#1376#0#PHP" />
-                <element signature="e#1441#2415#0#PHP" />
-                <element signature="e#2461#4529#0#PHP" />
-                <element signature="e#2587#3167#0#PHP" />
-                <element signature="e#4550#4935#0#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-              <folding>
-                <element signature="e#1230#2245#0#PHP" />
-                <element signature="e#2325#2579#0#PHP" />
-                <element signature="e#2681#2943#0#PHP" />
-                <element signature="e#2991#3383#0#PHP" />
-                <element signature="e#3755#3789#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/settings.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="6480">
+              <caret line="240" column="1" selection-start-line="240" selection-start-column="1" selection-end-line="240" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -121,21 +707,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>26</find>
-      <find>CBTools</find>
-      <find>Cab</find>
-      <find>102</find>
-      <find>103</find>
-      <find>print</find>
-      <find>Update</find>
-      <find>CIBLOCK</find>
-      <find>CIBlockElement</find>
-      <find>new</find>
       <find>$action</find>
       <find>$CabExFeedbackForm</find>
       <find>777</find>
@@ -149,6 +726,23 @@
       <find>site:</find>
       <find>GetList</find>
       <find>BX_CRONTAB</find>
+      <find>$id</find>
+      <find>background</find>
+      <find>feedback</find>
+      <find>margin-bottom</find>
+      <find>.feedback</find>
+      <find>.label</find>
+      <find>Works with AZEXO Builder</find>
+      <find>comp</find>
+      <find>no-gutter</find>
+      <find>body</find>
+      <find>submit</find>
+      <find>IBLOCK_ELEMENT_ID</find>
+      <find>data-div</find>
+      <find>form</find>
+      <find>label</find>
+      <find>main-backgrnd</find>
+      <find>html, body</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi</dir>
@@ -162,22 +756,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/local/vendor/phpmailer/phpmailer/src/PHPMailer.php" />
-        <option value="$PROJECT_DIR$/stream/taxi/file.txt" />
-        <option value="$PROJECT_DIR$/local/components/taxi/debug/Debugger.php" />
-        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/local/php_interface/init.php" />
-        <option value="$PROJECT_DIR$/local/php_interface/init.php" />
-        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/Driver.php" />
-        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/sokolru/public_html/local/php_interface/init.php" />
-        <option value="$PROJECT_DIR$/local/modules/taxi/install/index.php" />
-        <option value="$PROJECT_DIR$/local/modules/taxi/install/version.php" />
-        <option value="$PROJECT_DIR$/local/modules/taxi/lib/CBTools.php" />
-        <option value="$PROJECT_DIR$/local/modules/taxi/include.php" />
-        <option value="$PROJECT_DIR$/stream/taxi/index.php" />
-        <option value="$PROJECT_DIR$/local/components/taxi/ext.feedback.form/templates/taxi_new/template.php" />
-        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/ajaxElemForm.php" />
-        <option value="$PROJECT_DIR$/stream/taчi/index.php" />
-        <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/local/components/taxi/news.list/templates/taxi/cronscript.php" />
         <option value="$PROJECT_DIR$/local/components/taxi/src/DriverData.php" />
         <option value="$PROJECT_DIR$/local/components/taxi/config/config.php" />
         <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/init.php" />
@@ -199,20 +777,36 @@
         <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/bitrix/php_interface/dbconn.php" />
         <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/caytex.ru/public_html/bitrix/php_interface/cron_events.php" />
         <option value="$PROJECT_DIR$/local/composer.json" />
-        <option value="$PROJECT_DIR$/stream/form/index.php" />
         <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/tim/public_html/bitrix/php_interface/dbconn.php" />
         <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/tim/public_html/bitrix/php_interface/cron_events.php" />
         <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/tim/public_html/bitrix/php_interface/init.php" />
         <option value="&lt;7e788f48-7d30-4907-9dd1-93daaa786a80&gt;/tim/public_html/cron.php" />
         <option value="$PROJECT_DIR$/local/cron.php" />
-        <option value="$PROJECT_DIR$/stream/cron/index.php" />
         <option value="$PROJECT_DIR$/local/components/taxi/contracts/cronscript1.php" />
         <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/settings.php" />
         <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/ApiData.php" />
         <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/dbs.php" />
         <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/Db.php" />
         <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript1.php" />
+        <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/.htaccess" />
         <option value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript.php" />
+        <option value="$PROJECT_DIR$/local/templates/taxi_copy/css/main_style.css" />
+        <option value="$PROJECT_DIR$/local/templates/taxi_copy/footer.php" />
+        <option value="$PROJECT_DIR$/local/components/form/ext.feedback.form/component.php" />
+        <option value="$PROJECT_DIR$/local/modules/cab.extfeedbackform/include.php" />
+        <option value="$PROJECT_DIR$/local/templates/taxi_copy/styles.css" />
+        <option value="$PROJECT_DIR$/local/templates/taxi_copy/header.php" />
+        <option value="$PROJECT_DIR$/stream/form/agree.html" />
+        <option value="$PROJECT_DIR$/stream/form/steps.html" />
+        <option value="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1/style.css" />
+        <option value="$PROJECT_DIR$/stream/form/index.php" />
+        <option value="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/style.css" />
+        <option value="$PROJECT_DIR$/local/templates/f-innerpages/header.php" />
+        <option value="$PROJECT_DIR$/local/templates/f-innerpages/css/main_style.css" />
+        <option value="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/template.php" />
+        <option value="$PROJECT_DIR$/stream/cron/index.php" />
+        <option value="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1/template.php" />
+        <option value="$PROJECT_DIR$/stream/form/personal/index.php" />
       </list>
     </option>
   </component>
@@ -237,8 +831,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-14" />
+    <option name="x" value="-18" />
+    <option name="y" value="38" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -248,6 +842,176 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="bitrix" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="form" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="form" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ext.feedback.form" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="form" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ext.feedback.form" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="form" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ext.feedback.form" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="f1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="form" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ext.feedback.form" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="f1added" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="f-innerpages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="f-innerpages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="stream" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="stream" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cron" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="stream" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="form" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="stream" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="form" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="personal" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,154 +1108,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="bitrix" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="contracts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="news.list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="taxi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="includes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="local" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="php_interface" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="caytex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\LexSokolov\YandexDisk\caytex" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="stream" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -499,25 +1119,25 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\news.list\templates\taxi\includes" />
-      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\news.list\templates\taxi" />
-      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\modules" />
-      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\src" />
-      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\files" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\news.list\templates\taxi\includes" />
       <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\contracts" />
       <recent name="C:\Users\LexSokolov\YandexDisk\caytex" />
       <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\news.list\templates\taxi" />
       <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\form\ext.feedback.form\templates" />
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\templates" />
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\form" />
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\news.list\templates\taxi\includes" />
+      <recent name="C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi\news.list\templates\taxi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -550,7 +1170,9 @@
       <workItem from="1589009084093" duration="8261000" />
       <workItem from="1589179582751" duration="1279000" />
       <workItem from="1589210627900" duration="6551000" />
-      <workItem from="1589283290603" duration="32956000" />
+      <workItem from="1589283290603" duration="53284000" />
+      <workItem from="1589440371522" duration="26515000" />
+      <workItem from="1589540398172" duration="1709000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1588248445574</created>
@@ -594,11 +1216,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589322518901</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="creating and mailing payment docs">
+      <created>1589369122348</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589369122348</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253836000" />
+    <option name="totallyTimeSpent" value="302388000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -613,7 +1242,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22896698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24600638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.15282215" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -634,7 +1263,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.4084132" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32747602" />
       <window_info anchor="right" id="Database" order="4" weight="0.32960597" />
     </layout>
   </component>
@@ -686,141 +1315,10 @@
     <MESSAGE value="first" />
     <MESSAGE value="transfer init" />
     <MESSAGE value="cronscript" />
-    <option name="LAST_COMMIT_MESSAGE" value="cronscript" />
+    <MESSAGE value="creating and mailing payment docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating and mailing payment docs" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/vendor/phpmailer/phpmailer/src/PHPMailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="2963" column="17" selection-start-line="2963" selection-start-column="17" selection-end-line="2963" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3591">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/src/Transactions.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/debug/Debugger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/modules/cok.testmodule/include.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding>
-            <element signature="n#OnBuildGlobalMenu#0;n#CCokTestmodule#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/modules/cab.tools/install/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="n#InstallDB#0;n#Cab_tools#0;n#!!top" />
-            <element signature="n#UnInstallDB#0;n#Cab_tools#0;n#!!top" />
-            <element signature="e#1806#2123#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/modules/taxi/install/version.php" />
-    <entry file="file://$PROJECT_DIR$/local/modules/taxi/install/index.php" />
-    <entry file="file://$PROJECT_DIR$/local/modules/taxi/lib/CBTools.php" />
-    <entry file="file://$PROJECT_DIR$/local/modules/taxi/include.php" />
-    <entry file="file://$PROJECT_DIR$/stream/taxi/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#100#1562#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/modules/cok.testmodule/install/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="n#InstallFiles#0;n#cok_testmodule#0;n#!!top" />
-            <element signature="n#UnInstallFiles#0;n#cok_testmodule#0;n#!!top" />
-            <element signature="n#DoInstall#0;n#cok_testmodule#0;n#!!top" />
-            <element signature="n#DoUninstall#0;n#cok_testmodule#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/ext.feedback.form/templates/taxi_new/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="n#script#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/taчi/index.php" />
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/src/Driver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-          <folding>
-            <element signature="e#149#446#0#PHP" />
-            <element signature="n#ammountPrepairById#0;n#Driver#0;n#!!top" />
-            <element signature="n#getBaseDriverById#0;n#Driver#0;n#!!top" />
-            <element signature="n#getArrayDiff#0;n#Driver#0;n#!!top" />
-            <element signature="n#addDrivers#0;n#Driver#0;n#!!top" />
-            <element signature="n#getArrayApiAllDrivers#0;n#Driver#0;n#!!top" />
-            <element signature="n#getArrayApiDriverById#0;n#Driver#0;n#!!top" />
-            <element signature="n#getApiDriverById#0;n#Driver#0;n#!!top" />
-            <element signature="n#getApiAllDrivers#0;n#Driver#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix_server_test.php" />
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/cronscript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <element signature="e#1573#1852#0#PHP" />
-            <element signature="e#1841#2856#0#PHP" />
-            <element signature="e#2950#3212#0#PHP" />
-            <element signature="e#3314#3576#0#PHP" />
-            <element signature="e#3624#4018#0#PHP" />
-            <element signature="e#4378#4412#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local/modules/cab.tools/include.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -968,13 +1466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/form/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local/cron.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1023,38 +1514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/cron/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/dbs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="1268" column="1" lean-forward="true" selection-start-line="1268" selection-start-column="1" selection-end-line="1268" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/ApiData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="71" />
-          <folding>
-            <element signature="e#46#1376#0#PHP" />
-            <element signature="e#1441#2415#0#PHP" />
-            <element signature="e#2461#4529#0#PHP" />
-            <element signature="e#2587#3167#0#PHP" />
-            <element signature="e#4550#4935#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,17 +1545,208 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/ApiData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="128" column="30" lean-forward="true" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
+          <folding>
+            <element signature="e#46#1376#0#PHP" />
+            <element signature="e#1441#2415#0#PHP" />
+            <element signature="e#2461#4529#0#PHP" />
+            <element signature="e#2587#3167#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        <state relative-caret-position="297">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
-            <element signature="e#647#1121#0#PHP" />
+            <element signature="e#1220#1518#0#PHP" />
             <element signature="e#2244#2538#0#PHP" />
-            <element signature="e#2244#3953#0#PHP" />
             <element signature="e#3284#4669#0#PHP" />
             <element signature="e#4845#4879#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/taxi_copy/template_styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/taxi_copy/css/main_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="207" column="26" lean-forward="true" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/modules/cab.extfeedbackform/include.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1/.parameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/.parameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="168" column="9" lean-forward="true" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23949">
+          <caret line="887" column="19" selection-start-line="887" selection-start-column="19" selection-end-line="887" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/taxi_copy/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/taxi_copy/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/taxi_copy/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/form/steps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/form/agree.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2451276">
+          <caret line="90788" column="14" selection-start-line="90788" selection-start-column="14" selection-end-line="90788" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="242" column="14" selection-start-line="242" selection-start-column="14" selection-end-line="242" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/form/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="e#273#7842#0#HTML" />
+            <element signature="e#7787#9506#0#HTML" />
+            <element signature="e#9512#11458#0#HTML" />
+            <element signature="e#11463#14660#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/f-innerpages/css/main_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/f-innerpages/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6480">
+          <caret line="240" column="1" selection-start-line="240" selection-start-column="1" selection-end-line="240" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="620" column="53" selection-start-line="620" selection-start-column="53" selection-end-line="620" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/cron/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+          <folding>
+            <element signature="e#96#98#0#PHP" />
+            <element signature="e#119#1373#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="n#generatePassword#0;n#!!top" />
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#div#1;n#!!top" />
+            <element signature="e#26131#26162#0#PHP" expanded="true" />
+            <element signature="e#29603#29641#0#PHP" expanded="true" />
+            <element signature="e#32525#32563#0#PHP" expanded="true" />
+            <element signature="e#33530#33566#0#PHP" expanded="true" />
+            <element signature="e#33752#33788#0#PHP" expanded="true" />
+            <element signature="e#34089#34129#0#PHP" expanded="true" />
+            <element signature="e#34799#34832#0#PHP" expanded="true" />
+            <element signature="e#35976#36013#0#PHP" expanded="true" />
+            <element signature="e#39382#39419#0#PHP" expanded="true" />
+            <element signature="e#42872#42909#0#PHP" expanded="true" />
+            <element signature="e#46741#46781#0#PHP" expanded="true" />
+            <element signature="e#47693#47729#0#PHP" expanded="true" />
+            <element signature="e#48222#48263#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/form/personal/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
