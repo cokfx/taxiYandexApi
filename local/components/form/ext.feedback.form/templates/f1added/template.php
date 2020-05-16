@@ -616,10 +616,10 @@ pretty_print($arParams, false, false, "Params");
                     <? if ($eid): ?>
 
                         <div class="step-actions-container">
-                            <a href="/form/borrower-information/?action=redir2">
-                                <button class="step-action custom-button custom-button_blue">
-                                    Start Application
-                                </button>
+                            <a  href=<?SITE_DIR?>"/stream/form/borrower-information/?action=redir2&eid=<?=$eid?>">
+                                <input type="button" value="Start Application"  class="step-action custom-button custom-button_blue">
+
+                                <!--</button>-->
                             </a>
                         </div>
                     <? else: ?>

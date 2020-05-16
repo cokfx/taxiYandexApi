@@ -1,0 +1,263 @@
+.container{
+    width: 90%!important;
+}
+#feedbackf1 {
+
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+.feedback .caption {
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 15px 0;
+    padding: 0 0 15px 0;
+    padding-top: 14px;
+}
+
+.feedback form {
+    margin: 0;
+    padding: 0;
+}
+
+.feedback .hide {
+    display: none;
+}
+
+.feedback .starrequired {
+    color: red;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+.feedback .error-text {
+    border: 1px solid #d65957;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 3px;
+
+    background: white;
+}
+
+.feedback .error-text.float {
+    position: absolute;
+    width: 300px;
+    right: -330px;
+    top: 0;
+    margin-top: 0px;
+}
+
+.feedback .error-text .message {
+    color: red;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+.feedback .inputtext, .feedback .tags input, .feedback .UTDateTime input {
+    border: 1px solid #ccc;
+    padding: 3px 5px;
+    /*margin: 0 0 5px 0;*/
+    width: 100%;
+    /*height:26px;*/
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+.feedback .inputtext:focus {
+    color: black; /*#0459b7;*/
+}
+
+.feedback .datetime, .feedback .UTDateTime input {
+    width: 86%;
+}
+
+.feedback .textarea {
+    border: 1px solid #ccc;
+    padding: 3px 5px;
+    width: 100%;
+}
+
+.feedback .bxlhe-frame {
+    border: 1px solid #ccc;
+    padding: 2px;
+    width: 100%;
+}
+
+/*--select---------------------------------------------------------------------------------------------*/
+.feedback .select, .feedback .user-type select {
+    border: 1px solid #ccc;
+    background: white;
+    /*margin: 0 0 5px 0;*/
+    padding: 3px 5px;
+    width: 100%;
+}
+
+/*--button---------------------------------------------------------------------------------------------*/
+.feedback .button {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+.feedback .submit-td {
+    text-align: center;
+}
+
+.feedback .note {
+    color: #aaa;
+}
+
+/*--data-table----------------------------------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 50% !important;
+        margin: 30px auto;
+    }
+}
+
+.feedback .data-table {
+    border: 0;
+}
+
+.feedback .data-table td.data .wrapper {
+    position: relative;
+}
+
+.feedback .data-table td.label {
+    font-weight: normal;
+}
+
+.feedback .data-table td.label, .feedback .data-table td.data {
+    padding: 5px;
+}
+
+.feedback .data-table td.data label {
+    vertical-align: middle;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+/*--data-table row cell---------------------------------------------------------------------------------------------*/
+.feedback td {
+    border: 0 !important;
+    background: transparent !important;
+}
+
+/*---data table label align--------------------------------------------------------------------------------*/
+.feedback .l-align {
+    text-align: left;
+}
+
+.feedback .c-align {
+    text-align: center;
+}
+
+.feedback .r-align {
+    text-align: right;
+}
+
+.feedback .t-valign {
+    vertical-align: top;
+}
+
+.feedback .c-valign {
+    vertical-align: middle;
+}
+
+.feedback .b-valign {
+    vertical-align: bottom;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+.feedback .notetext {
+    color: green;
+}
+
+/*--CAPTCHA--*/
+#captcha_block {
+    position: relative;
+}
+
+#captcha_block .ajax_loader {
+    display: none;
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    background: #FFF url(images/ajax-loader.gif) center no-repeat;
+}
+
+#feedbackf1 .label {
+
+    text-align: left !important;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    margin-bottom: 0;
+    padding: 3px 0 10px;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #9b9b9b;
+}
+
+.no-gutter div {
+    padding: 0px;
+}
+
+.form-wrapper {
+    background-color: #fff !important;
+    padding: 50px 30px 30px !important;
+}
+
+main {
+    padding-top: 10% !important;
+    padding-bottom: 40px;
+}
+
+.btn-primary {
+    background-color: #007bff !important;
+}
+
+.checkCodeFirst, .checkCodeSecond {
+    padding: 10px 30px;
+}
+
+.step-action {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.custom-button_blue {
+    background: #1f83ff;
+    box-shadow: 0 2px 12px 0 rgba(31, 131, 255, 0.5);
+}
+
+.custom-button {
+    width: 190px;
+    height: 52px;
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+
+}
+input.form-control{
+    height: 50px!important;
+    padding: 14px 26px 14px 10px!important;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(51,51,51,0.87);
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+body{background: #f7f8fc!important;}

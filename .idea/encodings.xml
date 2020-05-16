@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1/checkCode.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1/style.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1/template.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/style.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/template.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/template.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/ApiData.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/createContract.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/includes/cronscript.php" charset="UTF-8" />
@@ -12,6 +17,7 @@
     <file url="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/result_modifier.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/local/modules/cab.tools/install/index.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stream/form/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/form/loan-property-information/index.php" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>

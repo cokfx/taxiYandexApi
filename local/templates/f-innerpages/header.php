@@ -7,6 +7,7 @@
  */
 
 use \Bitrix\Main\Page\Asset;
+
 \Bitrix\Main\Loader::includeModule('Cab.tools');
 ?>
 <!DOCTYPE html>
@@ -39,7 +40,6 @@ use \Bitrix\Main\Page\Asset;
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/aw-script.js");
 
 
-
     // Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/main.js");
     //подрубаем поиск:
     //Asset::getInstance()->addJs('/search/ajax_search.js');
@@ -52,11 +52,35 @@ use \Bitrix\Main\Page\Asset;
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
     <? // include($_SERVER["DOCUMENT_ROOT"] . "/lib/ClN1.php"); ?>
     <script src="//api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+    </script>
 </head>
 <body>
 <div id="bx-admin-panel"><? $APPLICATION->ShowPanel() ?></div>
 <div id="overlay"></div>
 <div id="loader" class="loader hidden"></div>
+<?
+global $urlparams;
+
+$currPage=$page = $APPLICATION->GetCurPage();
+
+$urlparams = array(
+    'stream/form/personal',
+    'stream/form/borrower-information',
+    'stream/form/loan-property-information',
+    'stream/form/type-of-mortgage-and-terms-of-loan',
+    'stream/form/employment-information',
+    'stream/form/income-information',
+    'stream/form/assets-and-liabilities',
+    'stream/form/declarations',
+    'stream/form/government-information',
+)
+?>
 
 <div class="main-wrapper">
 
@@ -69,8 +93,6 @@ use \Bitrix\Main\Page\Asset;
 
 
             <div class="col-md-6 header-right">
-
-
 
 
             </div>
