@@ -14,7 +14,7 @@ $page = $APPLICATION->GetCurPage();
 global $urlparams;
 $no=1;
 
-pretty_print($urlparams, false, false, "$urlparams");
+pretty_print($arResult, false, false, "$urlparams");
 pretty_print($arParams, false, false, "Params");
 ?>
 
@@ -71,6 +71,7 @@ pretty_print($arParams, false, false, "Params");
 
                     <?$rest = substr($propertyID, -2);  ?>
                     <?$restBl = substr($propertyID, -3);  ?>
+                        <?//=$restBl?>
                     <? if ($rest!='Co'): ?>
                         <? if ($restBl!='Bl2'): ?>
                             <div class="label row <?= $arParams['DATA-div-LABEL-ALIGN-H'] ?> <?= $arParams['DATA-div-LABEL-ALIGN-V'] ?>">
@@ -81,6 +82,13 @@ pretty_print($arParams, false, false, "Params");
                                 <? $label = !empty($arParams["CUSTOM_TITLE_" . $propertyID]) ? $arParams["CUSTOM_TITLE_" . $propertyID] : GetMessage("IBLOCK_FIELD_" . $propertyID) ?>
                             <? endif ?>
                             <?= $label; ?>
+                                <?if ($propertyID=='PROP_MAILING_ADDRESS_F2Bl3'):?>
+                                    <h4 style="font-weight: 600;margin-top: 50px;">
+                                        <?= $label; ?>
+                                    </h4>
+                                    <p style="margin-top: 15px;margin-bottom: 15px;font-size: 14px">Borrower</p>
+                                <?endif;?>
+
                             <? if (in_array($propertyID, $arResult["PROPERTY_REQUIRED"])): ?><span
                                     class="starrequired">*</span><? endif ?>
                         </div>
@@ -340,6 +348,35 @@ pretty_print($arParams, false, false, "Params");
                                                    value="<?= $elemIdTpl ?>"/>
 
                                         <? else: ?>
+                                            <?if ($propertyID=='PROP_MAILING_ADDRESS_F2Bl3'):?>
+                                                <input id="<?= $propertyID . '_' . $i ?>"
+                                                       class="inputtext form-control <?
+                                                       if ($arResult["PROPERTY_LIST_FULL"][$propertyID]["USER_TYPE"] == "DateTime"):?>datetime<? endif ?>"
+                                                       type="hidden" name="PROPERTY[<?= $propertyID ?>][<?= $i ?>]"
+                                                       size="25"
+                                                       value="<?= $value ?>" /><?
+                                                if ($arResult["PROPERTY_LIST_FULL"][$propertyID]["USER_TYPE"] == "DateTime"):?>
+
+
+
+
+                                                    <?
+                                                    $APPLICATION->IncludeComponent(
+                                                        'bitrix:main.calendar',
+                                                        '',
+                                                        array(
+                                                            'FORM_NAME' => 'iblock_add',
+                                                            'INPUT_NAME' => "PROPERTY[" . $propertyID . "][" . $i . "]",
+                                                            'INPUT_VALUE' => $value,
+                                                        ),
+                                                        null,
+                                                        array('HIDE_ICONS' => 'Y')
+                                                    );
+                                                    ?><br/>
+                                                    <small class="note"><?= GetMessage("CT_EFBF_FORM_DATE_FORMAT") ?><?= FORMAT_DATETIME ?></small>
+                                                <?
+                                                endif; ?>
+                                            <?else:?>
                                             <input id="<?= $propertyID . '_' . $i ?>"
                                                    class="inputtext form-control <?
                                                    if ($arResult["PROPERTY_LIST_FULL"][$propertyID]["USER_TYPE"] == "DateTime"):?>datetime<? endif ?>"
@@ -367,6 +404,7 @@ pretty_print($arParams, false, false, "Params");
                                                 <small class="note"><?= GetMessage("CT_EFBF_FORM_DATE_FORMAT") ?><?= FORMAT_DATETIME ?></small>
                                             <?
                                             endif; ?>
+                                            <?endif;?>
                                         <? endif; ?>
 
 
@@ -573,6 +611,7 @@ pretty_print($arParams, false, false, "Params");
                                 </div><!-- wrapper -->
                             </div>
                         </div>
+
                             <? elseif ($restBl=='Bl2'):?>
 
                                 <div class="label row <?= $arParams['DATA-div-LABEL-ALIGN-H'] ?> <?= $arParams['DATA-div-LABEL-ALIGN-V'] ?>">
@@ -589,11 +628,13 @@ pretty_print($arParams, false, false, "Params");
                                             <?= $label; ?>
                                         </h4>
                                     <p style="margin-top: 15px;margin-bottom: 15px;font-size: 14px">Borrower</p>
-                                    <?elseif($propertyID=='PROP_MAILING_ADDRESS_F2Bl3_Co'):?>
+
+                                    <?elseif($propertyID=='PROP_MAILING_ADDRESS_F2Bl3'):?>
                                         <h4 style="font-weight: 600;margin-top: 50px;">
                                             <?= $label; ?>
                                         </h4>
                                         <p style="margin-top: 15px;margin-bottom: 15px;font-size: 14px">Borrower</p>
+
                                     <?elseif($propertyID=='PROP_COPY_TO_MAILING_F2Bl2'):?>
                                     <?else:?>
                                         <?= $label; ?>
@@ -1100,7 +1141,10 @@ pretty_print($arParams, false, false, "Params");
                                         </div><!-- wrapper -->
                                     </div>
                                 </div>
+
                         <?endif;?>
+
+
                     <?endif;?>
                     <? endforeach; ?>
                     <? if ($arParams["USE_CAPTCHA"] == "Y" && !$USER->IsAuthorized()): ?>
@@ -1764,7 +1808,7 @@ pretty_print($arParams, false, false, "Params");
             <? endif ?>
             </div>
 
-                <div class="row">
+            <div class="row">
 
                         <div class="button-wrap btn btn-item">
                             <a href="<?=SITE_DIR.$urlparams[$no-1]?>?eid=<?=$_REQUEST['eid']?>">

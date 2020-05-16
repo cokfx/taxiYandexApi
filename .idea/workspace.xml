@@ -2,48 +2,19 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/local/components/taxi/ext.feedback.form/component.php" line="888" />
-    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="1429" />
-    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="1292" />
-    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="348" />
-    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="336" />
-    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="198" />
-    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="587" />
+    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="1473" />
+    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="1336" />
+    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="385" />
+    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="344" />
+    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="206" />
+    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="626" />
+    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="351" />
+    <bookmark url="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" line="84" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e07881f-67b1-41e0-862f-f162147c2404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1/checkCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/checkCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/result_modifier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/.parameters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/checkCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/component_epilog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/images/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/lang/en/.parameters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/lang/en/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/lang/ru/.parameters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/lang/ru/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/reload_captcha.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/result_modifier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/.parameters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/checkCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/component_epilog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/images/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/lang/en/.parameters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/lang/en/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/lang/ru/.parameters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/lang/ru/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/reload_captcha.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/result_modifier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/loan_property_information/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f1added/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/f-innerpages/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/f-innerpages/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/form/agree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/form/steps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="591" column="88" selection-start-line="591" selection-start-column="88" selection-end-line="591" selection-end-column="88" />
+            <state relative-caret-position="297">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="e#112#166#0#PHP" />
                 <element signature="e#168#492#0#PHP" />
@@ -135,21 +106,15 @@
                 <element signature="e#1464#1467#0#PHP" />
                 <element signature="e#1548#1551#0#PHP" />
                 <element signature="e#1634#1637#0#PHP" />
+                <element signature="e#1666#1856#0#PHP" />
+                <element signature="n#input#2;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#1811#1814#0#PHP" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#2054#2056#0#PHP" />
+                <element signature="e#2177#2179#0#PHP" />
+                <element signature="e#2665#2667#0#PHP" />
+                <element signature="e#2730#2732#0#PHP" />
                 <element signature="e#2306#2309#0#PHP" />
                 <element signature="e#2349#2352#0#PHP" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
-                <element signature="e#2422#2424#0#PHP" />
-                <element signature="e#2453#2950#0#PHP" />
-                <element signature="e#2528#2530#0#PHP" />
-                <element signature="e#2722#2944#0#PHP" />
-                <element signature="e#2763#2765#0#PHP" />
-                <element signature="e#2982#2985#0#PHP" />
-                <element signature="e#3028#3169#0#PHP" />
-                <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#3317#3320#0#PHP" />
                 <element signature="e#3406#3409#0#PHP" />
                 <element signature="e#3462#3464#0#PHP" />
@@ -163,7 +128,6 @@
                 <element signature="e#6519#7054#1#PHP" />
                 <element signature="e#6644#7004#0#PHP" />
                 <element signature="e#7135#7234#0#PHP" />
-                <element signature="e#7647#39333#0#PHP" />
                 <element signature="e#8001#13671#0#PHP" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#7921#13093#0#PHP" />
@@ -206,13 +170,10 @@
                 <element signature="e#18818#18821#0#PHP" />
                 <element signature="e#18838#18841#0#PHP" />
                 <element signature="e#18850#18853#0#PHP" />
-                <element signature="e#19094#24862#0#PHP" />
-                <element signature="e#19140#24819#0#PHP" />
                 <element signature="e#19321#20133#0#PHP" />
                 <element signature="e#19572#20133#0#PHP" />
                 <element signature="e#19620#20095#0#PHP" />
                 <element signature="e#19856#20077#0#PHP" />
-                <element signature="e#20171#24703#0#PHP" />
                 <element signature="e#20309#20312#0#PHP" />
                 <element signature="n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#20488#20491#0#PHP" />
@@ -232,8 +193,6 @@
                 <element signature="n#input#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#21770#21773#0#PHP" />
                 <element signature="e#21798#21801#0#PHP" />
-                <element signature="e#21983#24703#0#PHP" />
-                <element signature="e#22106#24617#0#PHP" />
                 <element signature="e#22203#22206#0#PHP" />
                 <element signature="n#input#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#22315#22317#0#PHP" />
@@ -241,7 +200,19 @@
                 <element signature="e#22549#22552#0#PHP" />
                 <element signature="e#22569#22572#0#PHP" />
                 <element signature="e#22700#22703#0#PHP" />
-                <element signature="e#22765#24610#0#PHP" />
+                <element signature="e#23086#23089#0#PHP" />
+                <element signature="e#23198#23200#0#PHP" />
+                <element signature="e#23339#23341#0#PHP" />
+                <element signature="e#23430#23433#0#PHP" />
+                <element signature="e#23450#23453#0#PHP" />
+                <element signature="e#23581#23584#0#PHP" />
+                <element signature="e#23598#23600#0#PHP" />
+                <element signature="e#23645#24874#0#PHP" />
+                <element signature="e#23777#23779#0#PHP" />
+                <element signature="e#23828#24575#0#PHP" />
+                <element signature="e#24044#24387#0#PHP" />
+                <element signature="e#24701#24704#0#PHP" />
+                <element signature="e#24746#24749#0#PHP" />
                 <element signature="e#22829#22832#0#PHP" />
                 <element signature="n#input#2;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#22941#22943#0#PHP" />
@@ -363,13 +334,17 @@
                 <element signature="e#39712#40015#0#PHP" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#39847#39850#0#PHP" />
+                <element signature="e#40165#82975#0#PHP" />
                 <element signature="e#40203#40206#0#PHP" />
-                <element signature="n#style#0;n#h4#0;n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#1;n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#40290#40293#0#PHP" />
+                <element signature="e#40619#40841#0#PHP" />
+                <element signature="e#41363#41454#0#PHP" />
+                <element signature="n#h4#1;n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="e#41337#41431#0#PHP" />
+                <element signature="e#41116#41162#0#PHP" />
                 <element signature="e#40925#41066#0#PHP" />
                 <element signature="n#span#0;n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#41218#41221#0#PHP" />
                 <element signature="e#41307#41310#0#PHP" />
                 <element signature="e#41363#41365#0#PHP" />
@@ -383,6 +358,7 @@
                 <element signature="e#44420#44955#1#PHP" />
                 <element signature="e#44545#44905#0#PHP" />
                 <element signature="e#45036#45135#0#PHP" />
+                <element signature="e#45548#76438#0#PHP" />
                 <element signature="e#45606#50285#0#PHP" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#45822#49939#0#PHP" />
@@ -417,10 +393,28 @@
                 <element signature="e#54857#55417#0#PHP" />
                 <element signature="e#55160#55353#0#PHP" />
                 <element signature="n#textarea#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="e#56146#61967#0#PHP" />
+                <element signature="e#56192#61924#0#PHP" />
+                <element signature="e#56373#57185#0#PHP" />
                 <element signature="e#56624#57185#0#PHP" />
                 <element signature="e#56672#57147#0#PHP" />
                 <element signature="e#56908#57129#0#PHP" />
+                <element signature="e#57223#61808#0#PHP" />
                 <element signature="n#input#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="e#57659#58954#0#PHP" />
+                <element signature="e#57862#58501#0#PHP" />
+                <element signature="e#57939#58494#0#PHP" />
+                <element signature="n#div#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="e#58261#58413#0#PHP" />
+                <element signature="n#span#0;n#div#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="n#input#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="e#61511#64793#0#PHP" />
+                <element signature="e#61650#65229#0#PHP" />
+                <element signature="n#input#1;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="e#62365#65222#0#PHP" />
+                <element signature="e#62428#65168#0#PHP" />
+                <element signature="n#input#2;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="e#63072#65161#0#PHP" />
                 <element signature="n#input#2;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#60440#61669#0#PHP" />
                 <element signature="e#60623#61370#0#PHP" />
@@ -470,6 +464,9 @@
                 <element signature="e#74925#75184#0#PHP" />
                 <element signature="e#75305#75736#0#PHP" />
                 <element signature="e#75372#75678#0#PHP" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="e#76974#77277#0#PHP" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#40245#43497#0#PHP" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#40400#40403#0#PHP" />
@@ -500,17 +497,24 @@
                 <element signature="e#43016#43317#0#PHP" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#43151#43154#0#PHP" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#43714#43716#0#PHP" />
+                <element signature="e#85147#126957#0#PHP" />
                 <element signature="e#43840#43842#0#PHP" />
+                <element signature="e#85285#126920#0#PHP" />
                 <element signature="e#43903#43906#0#PHP" />
                 <element signature="e#43946#43949#0#PHP" />
+                <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="e#44050#44547#0#PHP" />
                 <element signature="e#44125#44127#0#PHP" />
+                <element signature="e#44319#44541#0#PHP" />
                 <element signature="e#44360#44362#0#PHP" />
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#86031#86490#0#PHP" />
+                <element signature="e#86313#86399#0#PHP" />
+                <element signature="e#86402#86487#0#PHP" />
                 <element signature="e#44625#44766#0#PHP" />
                 <element signature="n#span#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#44914#44917#0#PHP" />
                 <element signature="e#45003#45006#0#PHP" />
                 <element signature="e#44961#44963#0#PHP" />
@@ -524,6 +528,9 @@
                 <element signature="e#48018#48553#1#PHP" />
                 <element signature="e#48313#48673#0#PHP" />
                 <element signature="e#48634#48733#0#PHP" />
+                <element signature="e#91060#125865#0#PHP" />
+                <element signature="e#48921#54657#0#PHP" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#49137#54309#0#PHP" />
                 <element signature="e#49505#50657#0#PHP" />
                 <element signature="e#49957#50657#0#PHP" />
@@ -562,10 +569,13 @@
                 <element signature="e#60487#60490#0#PHP" />
                 <element signature="e#60507#60510#0#PHP" />
                 <element signature="e#60519#60522#0#PHP" />
+                <element signature="e#101661#111394#0#PHP" />
+                <element signature="e#101707#111351#0#PHP" />
                 <element signature="e#60820#61632#0#PHP" />
                 <element signature="e#61071#61632#0#PHP" />
                 <element signature="e#61119#61594#0#PHP" />
                 <element signature="e#61355#61576#0#PHP" />
+                <element signature="e#102738#111235#0#PHP" />
                 <element signature="n#input#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#62157#62160#0#PHP" />
                 <element signature="e#62177#62180#0#PHP" />
@@ -576,7 +586,6 @@
                 <element signature="e#62662#62665#0#PHP" />
                 <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#62747#62750#0#PHP" />
-                <element signature="e#103360#103391#0#PHP" expanded="true" />
                 <element signature="e#62835#62837#0#PHP" />
                 <element signature="e#62878#63030#0#PHP" />
                 <element signature="n#span#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
@@ -585,6 +594,8 @@
                 <element signature="n#input#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#63439#63442#0#PHP" />
                 <element signature="e#63467#63470#0#PHP" />
+                <element signature="e#104550#111235#0#PHP" />
+                <element signature="e#104673#111149#0#PHP" />
                 <element signature="e#63872#63875#0#PHP" />
                 <element signature="n#input#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#63984#63986#0#PHP" />
@@ -592,6 +603,9 @@
                 <element signature="e#64218#64221#0#PHP" />
                 <element signature="e#64238#64241#0#PHP" />
                 <element signature="e#64369#64372#0#PHP" />
+                <element signature="e#105332#111142#0#PHP" />
+                <element signature="e#105383#111096#0#PHP" />
+                <element signature="n#input#2;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#64610#64612#0#PHP" />
                 <element signature="e#64751#64753#0#PHP" />
                 <element signature="e#64993#64996#0#PHP" />
@@ -601,17 +615,17 @@
                 <element signature="e#65017#65764#0#PHP" />
                 <element signature="e#65233#65576#0#PHP" />
                 <element signature="e#66060#66063#0#PHP" />
-                <element signature="e#106664#106702#0#PHP" expanded="true" />
                 <element signature="e#66105#66108#0#PHP" />
+                <element signature="e#107275#109258#0#PHP" />
+                <element signature="n#input#3;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#107903#109079#0#PHP" />
                 <element signature="e#108033#108780#0#PHP" />
                 <element signature="e#108249#108592#0#PHP" />
-                <element signature="e#109022#109060#0#PHP" expanded="true" />
+                <element signature="e#109245#111089#0#PHP" />
                 <element signature="n#input#3;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="e#107890#109066#0#PHP" />
                 <element signature="e#108020#108767#0#PHP" />
                 <element signature="e#108236#108579#0#PHP" />
-                <element signature="e#110874#110912#0#PHP" expanded="true" />
                 <element signature="e#66324#70920#0#PHP" />
                 <element signature="e#66449#70627#0#PHP" />
                 <element signature="e#66530#67049#0#PHP" />
@@ -634,7 +648,6 @@
                 <element signature="e#68824#68827#0#PHP" />
                 <element signature="e#68843#68846#0#PHP" />
                 <element signature="e#68854#68857#0#PHP" />
-                <element signature="e#113721#113759#0#PHP" expanded="true" />
                 <element signature="e#68892#70395#0#PHP" />
                 <element signature="e#69233#69236#0#PHP" />
                 <element signature="n#img#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
@@ -642,14 +655,11 @@
                 <element signature="e#69465#69468#0#PHP" />
                 <element signature="e#69527#70395#0#PHP" />
                 <element signature="e#69811#69814#0#PHP" />
-                <element signature="e#114678#114714#0#PHP" expanded="true" />
                 <element signature="e#69856#69859#0#PHP" />
                 <element signature="e#70025#70028#0#PHP" />
-                <element signature="e#114892#114928#0#PHP" expanded="true" />
                 <element signature="e#69622#69625#0#PHP" />
                 <element signature="e#69048#69051#0#PHP" />
                 <element signature="e#69098#69101#0#PHP" />
-                <element signature="e#115217#115257#0#PHP" expanded="true" />
                 <element signature="e#70838#71118#0#PHP" />
                 <element signature="e#71003#73926#0#PHP" />
                 <element signature="n#select#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
@@ -704,6 +714,12 @@
                 <element signature="e#84842#85143#0#PHP" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
                 <element signature="n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="n#input#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="n#input#0;n#div#1;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="e#85057#85630#1#HTML" />
                 <element signature="n#script#1;n#!!top" />
               </folding>
             </state>
@@ -751,7 +767,6 @@
       <find>IBLOCK_ELEMENT_ID</find>
       <find>data-div</find>
       <find>form</find>
-      <find>label</find>
       <find>main-backgrnd</find>
       <find>html, body</find>
       <find>stepper-wrapper mb-3</find>
@@ -765,6 +780,7 @@
       <find>PROP_Present_Address_F2Bl2</find>
       <find>hidden</find>
       <find>datepicker</find>
+      <find>label</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\LexSokolov\YandexDisk\caytex\local\components\taxi</dir>
@@ -1193,7 +1209,7 @@
       <workItem from="1589210627900" duration="6551000" />
       <workItem from="1589283290603" duration="53284000" />
       <workItem from="1589440371522" duration="26515000" />
-      <workItem from="1589540398172" duration="35051000" />
+      <workItem from="1589540398172" duration="39185000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1588248445574</created>
@@ -1251,11 +1267,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589542231690</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2form">
+      <created>1589636511681</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589636511681</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="335730000" />
+    <option name="totallyTimeSpent" value="339864000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1345,7 +1368,8 @@
     <MESSAGE value="cronscript" />
     <MESSAGE value="creating and mailing payment docs" />
     <MESSAGE value="autorization start registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="autorization start registration" />
+    <MESSAGE value="2form" />
+    <option name="LAST_COMMIT_MESSAGE" value="2form" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/local/components/taxi/news.list/templates/taxi/ajaxElemForm.php">
@@ -1761,8 +1785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/local/components/form/ext.feedback.form/templates/f2/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="591" column="88" selection-start-line="591" selection-start-column="88" selection-end-line="591" selection-end-column="88" />
+        <state relative-caret-position="297">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="e#112#166#0#PHP" />
             <element signature="e#168#492#0#PHP" />
@@ -1785,21 +1809,15 @@
             <element signature="e#1464#1467#0#PHP" />
             <element signature="e#1548#1551#0#PHP" />
             <element signature="e#1634#1637#0#PHP" />
+            <element signature="e#1666#1856#0#PHP" />
+            <element signature="n#input#2;n#form#0;n#div#0;n#!!top" />
             <element signature="e#1811#1814#0#PHP" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#2054#2056#0#PHP" />
+            <element signature="e#2177#2179#0#PHP" />
+            <element signature="e#2665#2667#0#PHP" />
+            <element signature="e#2730#2732#0#PHP" />
             <element signature="e#2306#2309#0#PHP" />
             <element signature="e#2349#2352#0#PHP" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
-            <element signature="e#2422#2424#0#PHP" />
-            <element signature="e#2453#2950#0#PHP" />
-            <element signature="e#2528#2530#0#PHP" />
-            <element signature="e#2722#2944#0#PHP" />
-            <element signature="e#2763#2765#0#PHP" />
-            <element signature="e#2982#2985#0#PHP" />
-            <element signature="e#3028#3169#0#PHP" />
-            <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#3317#3320#0#PHP" />
             <element signature="e#3406#3409#0#PHP" />
             <element signature="e#3462#3464#0#PHP" />
@@ -1813,7 +1831,6 @@
             <element signature="e#6519#7054#1#PHP" />
             <element signature="e#6644#7004#0#PHP" />
             <element signature="e#7135#7234#0#PHP" />
-            <element signature="e#7647#39333#0#PHP" />
             <element signature="e#8001#13671#0#PHP" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#7921#13093#0#PHP" />
@@ -1856,13 +1873,10 @@
             <element signature="e#18818#18821#0#PHP" />
             <element signature="e#18838#18841#0#PHP" />
             <element signature="e#18850#18853#0#PHP" />
-            <element signature="e#19094#24862#0#PHP" />
-            <element signature="e#19140#24819#0#PHP" />
             <element signature="e#19321#20133#0#PHP" />
             <element signature="e#19572#20133#0#PHP" />
             <element signature="e#19620#20095#0#PHP" />
             <element signature="e#19856#20077#0#PHP" />
-            <element signature="e#20171#24703#0#PHP" />
             <element signature="e#20309#20312#0#PHP" />
             <element signature="n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#20488#20491#0#PHP" />
@@ -1882,8 +1896,6 @@
             <element signature="n#input#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#21770#21773#0#PHP" />
             <element signature="e#21798#21801#0#PHP" />
-            <element signature="e#21983#24703#0#PHP" />
-            <element signature="e#22106#24617#0#PHP" />
             <element signature="e#22203#22206#0#PHP" />
             <element signature="n#input#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#22315#22317#0#PHP" />
@@ -1891,7 +1903,19 @@
             <element signature="e#22549#22552#0#PHP" />
             <element signature="e#22569#22572#0#PHP" />
             <element signature="e#22700#22703#0#PHP" />
-            <element signature="e#22765#24610#0#PHP" />
+            <element signature="e#23086#23089#0#PHP" />
+            <element signature="e#23198#23200#0#PHP" />
+            <element signature="e#23339#23341#0#PHP" />
+            <element signature="e#23430#23433#0#PHP" />
+            <element signature="e#23450#23453#0#PHP" />
+            <element signature="e#23581#23584#0#PHP" />
+            <element signature="e#23598#23600#0#PHP" />
+            <element signature="e#23645#24874#0#PHP" />
+            <element signature="e#23777#23779#0#PHP" />
+            <element signature="e#23828#24575#0#PHP" />
+            <element signature="e#24044#24387#0#PHP" />
+            <element signature="e#24701#24704#0#PHP" />
+            <element signature="e#24746#24749#0#PHP" />
             <element signature="e#22829#22832#0#PHP" />
             <element signature="n#input#2;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#22941#22943#0#PHP" />
@@ -2013,13 +2037,17 @@
             <element signature="e#39712#40015#0#PHP" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#39847#39850#0#PHP" />
+            <element signature="e#40165#82975#0#PHP" />
             <element signature="e#40203#40206#0#PHP" />
-            <element signature="n#style#0;n#h4#0;n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#1;n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#40290#40293#0#PHP" />
+            <element signature="e#40619#40841#0#PHP" />
+            <element signature="e#41363#41454#0#PHP" />
+            <element signature="n#h4#1;n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="e#41337#41431#0#PHP" />
+            <element signature="e#41116#41162#0#PHP" />
             <element signature="e#40925#41066#0#PHP" />
             <element signature="n#span#0;n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#41218#41221#0#PHP" />
             <element signature="e#41307#41310#0#PHP" />
             <element signature="e#41363#41365#0#PHP" />
@@ -2033,6 +2061,7 @@
             <element signature="e#44420#44955#1#PHP" />
             <element signature="e#44545#44905#0#PHP" />
             <element signature="e#45036#45135#0#PHP" />
+            <element signature="e#45548#76438#0#PHP" />
             <element signature="e#45606#50285#0#PHP" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#45822#49939#0#PHP" />
@@ -2067,10 +2096,28 @@
             <element signature="e#54857#55417#0#PHP" />
             <element signature="e#55160#55353#0#PHP" />
             <element signature="n#textarea#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="e#56146#61967#0#PHP" />
+            <element signature="e#56192#61924#0#PHP" />
+            <element signature="e#56373#57185#0#PHP" />
             <element signature="e#56624#57185#0#PHP" />
             <element signature="e#56672#57147#0#PHP" />
             <element signature="e#56908#57129#0#PHP" />
+            <element signature="e#57223#61808#0#PHP" />
             <element signature="n#input#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="e#57659#58954#0#PHP" />
+            <element signature="e#57862#58501#0#PHP" />
+            <element signature="e#57939#58494#0#PHP" />
+            <element signature="n#div#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="e#58261#58413#0#PHP" />
+            <element signature="n#span#0;n#div#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="n#input#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="e#61511#64793#0#PHP" />
+            <element signature="e#61650#65229#0#PHP" />
+            <element signature="n#input#1;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="e#62365#65222#0#PHP" />
+            <element signature="e#62428#65168#0#PHP" />
+            <element signature="n#input#2;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="e#63072#65161#0#PHP" />
             <element signature="n#input#2;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#60440#61669#0#PHP" />
             <element signature="e#60623#61370#0#PHP" />
@@ -2120,6 +2167,9 @@
             <element signature="e#74925#75184#0#PHP" />
             <element signature="e#75305#75736#0#PHP" />
             <element signature="e#75372#75678#0#PHP" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="e#76974#77277#0#PHP" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#40245#43497#0#PHP" />
             <element signature="n#div#2;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#40400#40403#0#PHP" />
@@ -2150,17 +2200,24 @@
             <element signature="e#43016#43317#0#PHP" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#43151#43154#0#PHP" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#43714#43716#0#PHP" />
+            <element signature="e#85147#126957#0#PHP" />
             <element signature="e#43840#43842#0#PHP" />
+            <element signature="e#85285#126920#0#PHP" />
             <element signature="e#43903#43906#0#PHP" />
             <element signature="e#43946#43949#0#PHP" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="e#44050#44547#0#PHP" />
             <element signature="e#44125#44127#0#PHP" />
+            <element signature="e#44319#44541#0#PHP" />
             <element signature="e#44360#44362#0#PHP" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#86031#86490#0#PHP" />
+            <element signature="e#86313#86399#0#PHP" />
+            <element signature="e#86402#86487#0#PHP" />
             <element signature="e#44625#44766#0#PHP" />
             <element signature="n#span#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#44914#44917#0#PHP" />
             <element signature="e#45003#45006#0#PHP" />
             <element signature="e#44961#44963#0#PHP" />
@@ -2174,6 +2231,9 @@
             <element signature="e#48018#48553#1#PHP" />
             <element signature="e#48313#48673#0#PHP" />
             <element signature="e#48634#48733#0#PHP" />
+            <element signature="e#91060#125865#0#PHP" />
+            <element signature="e#48921#54657#0#PHP" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#49137#54309#0#PHP" />
             <element signature="e#49505#50657#0#PHP" />
             <element signature="e#49957#50657#0#PHP" />
@@ -2212,10 +2272,13 @@
             <element signature="e#60487#60490#0#PHP" />
             <element signature="e#60507#60510#0#PHP" />
             <element signature="e#60519#60522#0#PHP" />
+            <element signature="e#101661#111394#0#PHP" />
+            <element signature="e#101707#111351#0#PHP" />
             <element signature="e#60820#61632#0#PHP" />
             <element signature="e#61071#61632#0#PHP" />
             <element signature="e#61119#61594#0#PHP" />
             <element signature="e#61355#61576#0#PHP" />
+            <element signature="e#102738#111235#0#PHP" />
             <element signature="n#input#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#62157#62160#0#PHP" />
             <element signature="e#62177#62180#0#PHP" />
@@ -2226,7 +2289,6 @@
             <element signature="e#62662#62665#0#PHP" />
             <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#62747#62750#0#PHP" />
-            <element signature="e#103360#103391#0#PHP" expanded="true" />
             <element signature="e#62835#62837#0#PHP" />
             <element signature="e#62878#63030#0#PHP" />
             <element signature="n#span#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
@@ -2235,6 +2297,8 @@
             <element signature="n#input#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#63439#63442#0#PHP" />
             <element signature="e#63467#63470#0#PHP" />
+            <element signature="e#104550#111235#0#PHP" />
+            <element signature="e#104673#111149#0#PHP" />
             <element signature="e#63872#63875#0#PHP" />
             <element signature="n#input#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#63984#63986#0#PHP" />
@@ -2242,6 +2306,9 @@
             <element signature="e#64218#64221#0#PHP" />
             <element signature="e#64238#64241#0#PHP" />
             <element signature="e#64369#64372#0#PHP" />
+            <element signature="e#105332#111142#0#PHP" />
+            <element signature="e#105383#111096#0#PHP" />
+            <element signature="n#input#2;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#64610#64612#0#PHP" />
             <element signature="e#64751#64753#0#PHP" />
             <element signature="e#64993#64996#0#PHP" />
@@ -2251,17 +2318,17 @@
             <element signature="e#65017#65764#0#PHP" />
             <element signature="e#65233#65576#0#PHP" />
             <element signature="e#66060#66063#0#PHP" />
-            <element signature="e#106664#106702#0#PHP" expanded="true" />
             <element signature="e#66105#66108#0#PHP" />
+            <element signature="e#107275#109258#0#PHP" />
+            <element signature="n#input#3;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#107903#109079#0#PHP" />
             <element signature="e#108033#108780#0#PHP" />
             <element signature="e#108249#108592#0#PHP" />
-            <element signature="e#109022#109060#0#PHP" expanded="true" />
+            <element signature="e#109245#111089#0#PHP" />
             <element signature="n#input#3;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="e#107890#109066#0#PHP" />
             <element signature="e#108020#108767#0#PHP" />
             <element signature="e#108236#108579#0#PHP" />
-            <element signature="e#110874#110912#0#PHP" expanded="true" />
             <element signature="e#66324#70920#0#PHP" />
             <element signature="e#66449#70627#0#PHP" />
             <element signature="e#66530#67049#0#PHP" />
@@ -2284,7 +2351,6 @@
             <element signature="e#68824#68827#0#PHP" />
             <element signature="e#68843#68846#0#PHP" />
             <element signature="e#68854#68857#0#PHP" />
-            <element signature="e#113721#113759#0#PHP" expanded="true" />
             <element signature="e#68892#70395#0#PHP" />
             <element signature="e#69233#69236#0#PHP" />
             <element signature="n#img#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
@@ -2292,14 +2358,11 @@
             <element signature="e#69465#69468#0#PHP" />
             <element signature="e#69527#70395#0#PHP" />
             <element signature="e#69811#69814#0#PHP" />
-            <element signature="e#114678#114714#0#PHP" expanded="true" />
             <element signature="e#69856#69859#0#PHP" />
             <element signature="e#70025#70028#0#PHP" />
-            <element signature="e#114892#114928#0#PHP" expanded="true" />
             <element signature="e#69622#69625#0#PHP" />
             <element signature="e#69048#69051#0#PHP" />
             <element signature="e#69098#69101#0#PHP" />
-            <element signature="e#115217#115257#0#PHP" expanded="true" />
             <element signature="e#70838#71118#0#PHP" />
             <element signature="e#71003#73926#0#PHP" />
             <element signature="n#select#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
@@ -2354,6 +2417,12 @@
             <element signature="e#84842#85143#0#PHP" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="n#input#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="n#input#0;n#div#1;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="e#85057#85630#1#HTML" />
             <element signature="n#script#1;n#!!top" />
           </folding>
         </state>
